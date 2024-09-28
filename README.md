@@ -102,3 +102,24 @@
 - 9.5 Preparing a Docker image
 - 9.6 Creating the lambda function
 - 9.7 API Gateway: exposing the lambda function
+
+## 10. Kubernetes and TensorFlow Serving
+- 10.1 Overview
+- 10.2 TensorFlow Serving
+- 10.3 Creating a pre-processing service
+- 10.4 Running everything locally with Docker-compose
+- 10.5 Introduction to Kubernetes
+- 10.6 Deploying a simple service to Kubernetes
+- 10.7 Deploying TensorFlow models to Kubernetes
+- 10.8 Deploying to EKS
+
+## 11. KServe
+- 11.1 Overview
+- 11.2 Running KServe locally
+- 11.3 Deploying a Scikit-Learn model with KServe
+- 11.4 Deploying custom Scikit-Learn images with KServe
+- 11.5 Serving TensorFlow models with KServe
+- 11.6 KServe transformers
+- 11.7 Deploying with KServe and EKS
+- 11.8 Summary
+- 11.9 Explore more
