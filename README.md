@@ -2,7 +2,7 @@
 
 [More details](https://github.com/DataTalksClub/machine-learning-zoomcamp)
 
-![Captura de tela 2024-09-28 160142](https://github.com/user-attachments/assets/4831b46e-30ef-4ab1-a24b-910e8d9a173b)
+![image](https://github.com/user-attachments/assets/3efc7201-7f18-43f1-9406-0973290aedf9)
 
 ## 1. Introduction to Machine Learning
 - 1.1 Introduction to Machine Learning
