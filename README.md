@@ -55,3 +55,50 @@
 - 4.5 ROC Curves
 - 4.6 ROC AUC
 - 4.7 Cross-Validation
+
+## 5. Deploying Machine Learning Models
+- 5.1 Intro / Session overview
+- 5.2 Saving and loading the model
+- 5.3 Web services: introduction to Flask
+- 5.4 Serving the churn model with Flask
+- 5.5 Python virtual environment: Pipenv
+- 5.6 Environment management: Docker
+- 5.7 Deployment to the cloud: AWS Elastic Beanstalk (optional)
+
+## 6. Decision Trees and Ensemble Learning
+- 6.1 Credit risk scoring project
+- 6.2 Data cleaning and preparation
+- 6.3 Decision trees
+- 6.4 Decision tree learning algorithm
+- 6.5 Decision trees parameter tuning
+- 6.6 Ensemble learning and random forest
+- 6.7 Gradient boosting and XGBoost
+- 6.8 XGBoost parameter tuning
+- 6.9 Selecting the best model
+
+## 7. Midterm Project
+- 7.1. practical project
+
+##  8. Neural Networks and Deep Learning
+- 8.1 Fashion classification
+- 8.1 Setting up the Environment on Saturn Cloud
+- 8.2 TensorFlow and Keras
+- 8.3 Pre-trained convolutional neural networks
+- 8.4 Convolutional neural networks
+- 8.5 Transfer learning
+- 8.6 Adjusting the learning rate
+- 8.7 Checkpointing
+- 8.8 Adding more layers
+- 8.9 Regularization and dropout
+- 8.10 Data augmentation
+- 8.11 Training a larger model
+- 8.12 Using the model
+
+## 9. Serverless Deep Learning
+- 9.1 Introduction to Serverless
+- 9.2 AWS Lambda
+- 9.3 TensorFlow Lite
+- 9.4 Preparing the code for Lambda
+- 9.5 Preparing a Docker image
+- 9.6 Creating the lambda function
+- 9.7 API Gateway: exposing the lambda function
