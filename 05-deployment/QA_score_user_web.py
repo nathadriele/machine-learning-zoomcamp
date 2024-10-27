@@ -15,7 +15,7 @@ def load_pickle_file(file_path: str):
 
 def get_dv_model():
     dv = load_pickle_file("dv.bin")    
-    model_name = os.getenv("MODEL_NAME")
+    model_name = os.getenv("MODEL_NAME", "model1.bin")
     print(f"Using model: {model_name}")
     model = load_pickle_file(model_name)
     return dv, model
@@ -24,6 +24,7 @@ def get_dv_model():
 def score_user():
     user = request.get_json()
     
+    # Validate input
     if not user or not isinstance(user, dict):
         abort(400, description="Invalid input: Expected a JSON object with user data.")
 
@@ -32,6 +33,7 @@ def score_user():
     except (FileNotFoundError, ValueError) as e:
         abort(500, description=f"Model loading error: {str(e)}")
     
+    # Transform the input and make a prediction
     try:
         X = dv.transform([user])
         y_pred = model.predict_proba(X)[0, 1]
