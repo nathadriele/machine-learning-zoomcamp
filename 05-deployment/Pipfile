@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "==1.5.2"
+gunicorn = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
