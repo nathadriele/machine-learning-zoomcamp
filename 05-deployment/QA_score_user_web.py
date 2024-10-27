@@ -5,6 +5,7 @@ from flask import Flask, jsonify, request, abort
 app = Flask("score_user")
 
 def load_pickle_file(file_path: str):
+    """Loads a pickle file from the given path."""
     try:
         with open(file_path, "rb") as f_in:
             return pickle.load(f_in)
@@ -14,6 +15,7 @@ def load_pickle_file(file_path: str):
         raise ValueError(f"Error: The file {file_path} could not be unpickled.")
 
 def get_dv_model():
+    """Loads the dictionary vectorizer and model."""
     dv = load_pickle_file("dv.bin")    
     model_name = os.getenv("MODEL_NAME", "model1.bin")
     print(f"Using model: {model_name}")
@@ -29,6 +31,7 @@ def score_user():
     if not user or not isinstance(user, dict):
         abort(400, description="Invalid input: Expected a JSON object with user data.")
 
+    # Load vectorizer and model
     try:
         dv, model = get_dv_model()
     except (FileNotFoundError, ValueError) as e:
