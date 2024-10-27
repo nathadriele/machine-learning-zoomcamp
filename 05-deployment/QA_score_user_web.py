@@ -22,6 +22,7 @@ def get_dv_model():
 
 @app.route("/score", methods=["POST"])
 def score_user():
+    """Endpoint to score a user based on the provided JSON payload."""
     user = request.get_json()
     
     # Validate input
