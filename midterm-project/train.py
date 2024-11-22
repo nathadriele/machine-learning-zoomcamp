@@ -40,6 +40,7 @@ def remove_outliers_iqr(df, column):
 
 columns_to_clean = ['Cholesterol', 'BloodPressure', 'PhysicalActivity', 'SodiumIntake', 'BMI', 'Age']
 for column in columns_to_clean:
+    df = remove_outliers_iqr(df, column)
     logging.info(f'Outliers removed from column: {column}')
 
 df['BMI_Category'] = pd.cut(df['BMI'], bins=[0, 18.5, 24.9, 29.9, np.inf],
@@ -59,6 +60,7 @@ y_val = df_test[target_label].values
 dv = DictVectorizer(sparse=False)
 train_dicts = df_train.fillna(0).to_dict(orient='records')
 X_train = dv.fit_transform(train_dicts)
+val_dicts = df_val.fillna(0).to_dict(orient='records')
 X_val = dv.transform(val_dicts)
 
 model_lr = LogisticRegression(solver='liblinear', random_state=42)
