@@ -68,6 +68,7 @@ model_lr = LogisticRegression(solver='liblinear', random_state=42)
 param_grid_lr = {
     'C': [0.001, 0.01, 0.1, 1, 10, 100],
     'penalty': ['l1', 'l2'], 
+    'class_weight': ['balanced', None]
 }
 
 grid_search = GridSearchCV(
