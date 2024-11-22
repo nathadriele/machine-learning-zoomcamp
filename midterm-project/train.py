@@ -98,6 +98,7 @@ logging.info(f"Best Hyperparameters: {best_params}")
 print("Classification Report:")
 print(classification_report(y_val, y_pred))
 print(f"Precision: {precision_score(y_val, y_pred)}")
+print(f"Recall: {recall_score(y_val, y_pred)}")
 print(f"F1 Score: {f1_score(y_val, y_pred)}")
 print(f"AUC-ROC Score: {roc_auc_score(y_val, y_pred_proba)}")
 
@@ -107,6 +108,7 @@ def save_model(dv, model):
         with open(output_file, 'wb') as f_out:
             pickle.dump((dv, model), f_out)
     except Exception as e:
+        logging.error(f'Error saving the model: {e}')
         raise
     return output_file
 
