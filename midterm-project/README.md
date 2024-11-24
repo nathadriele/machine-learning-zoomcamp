@@ -179,5 +179,100 @@ We analyzed the correlations between numerical variables to identify potential m
 
 ![alt text](images/image-8.png)
 
+## Data Preparation
+
+### Handling Missing Values
+
+We identified and handled missing values in relevant columns. For example, we replaced missing values in columns like `sex` with the median or another appropriate strategy.
+
+### Removing Outliers
+
+We applied the Interquartile Range (IQR) method to remove outliers from columns such as `age`, `trestbps`, `chol`, `thalach`, and `oldpeak`.
+
+### Feature Scaling
+
+We normalized or standardized numerical features to ensure that all variables contribute equally to the model.
+
+## Feature Engineering
+
+### Creating Categories
+
+We created new categorical features, such as `Age_Category`, based on age ranges, to capture non-linear patterns related to hypertension risk.
+
+### Feature Importance Analysis
+
+We used feature selection techniques and correlation analyses to identify the most relevant variables for hypertension prediction.
+
+## Model Training and Evaluation
+
+### Models Used
+
+We trained various classification models, including:
+
+- **Logistic Regression**
+- **Random Forest Classifier**
+- **XGBoost Classifier**
+- **Ensemble Voting Classifier**
+
+### Hyperparameter Tuning
+
+We utilized `GridSearchCV` and `RandomizedSearchCV` to optimize the hyperparameters of each model, aiming to improve their performance.
+
+#### Logistic Regression 
+
+# LogisticRegression Classification Report
+
+| Class         | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| **0**         | 0.72      | 0.60   | 0.65     | 2153    |
+| **1**         | 0.73      | 0.80   | 0.76     | 2737    |
+| **Accuracy**  |           |        | 0.72     | 4890    |
+| **Macro Avg** | 0.73      | 0.70   | 0.70     | 4890    |
+| **Weighted Avg** | 0.73   | 0.72   | 0.72     | 4890    |
+
+**AUC-ROC Score**: 0.78
+
+#### Random Forest Classifier
+
+# RandomForest Classification Report
+
+| Class         | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| **0**         | 0.80      | 0.65   | 0.72     | 2153    |
+| **1**         | 0.76      | 0.85   | 0.80     | 2737    |
+| **Accuracy**  |           |        | 0.75     | 4890    |
+| **Macro Avg** | 0.78      | 0.75   | 0.76     | 4890    |
+| **Weighted Avg** | 0.78   | 0.75   | 0.76     | 4890    |
+
+**AUC-ROC Score**: 0.85
+
+#### XGBoost Classifier
+
+# XGBoost Classification Report
+
+| Class         | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| **0**         | 0.88      | 0.75   | 0.81     | 2153    |
+| **1**         | 0.80      | 0.88   | 0.84     | 2737    |
+| **Accuracy**  |           |        | 0.80     | 4890    |
+| **Macro Avg** | 0.84      | 0.81   | 0.82     | 4890    |
+| **Weighted Avg** | 0.84   | 0.80   | 0.81     | 4890    |
+
+**AUC-ROC Score**: 0.89
+
+#### Ensemble Voting Classifier
+
+# Ensemble Learning - Voting Classifier Report
+
+| Class         | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| **0**         | 0.82      | 0.70   | 0.75     | 2153    |
+| **1**         | 0.76      | 0.85   | 0.80     | 2737    |
+| **Accuracy**  |           |        | 0.77     | 4890    |
+| **Macro Avg** | 0.79      | 0.78   | 0.77     | 4890    |
+| **Weighted Avg** | 0.79   | 0.77   | 0.77     | 4890    |
+
+**AUC-ROC Score**: 0.85
+
 
 
