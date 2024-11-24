@@ -1,5 +1,9 @@
 # Hypertension Prediction
 
+**Hypertension Risk Prediction with Machine Learning for Preventive Interventions.**
+
+![image](https://github.com/user-attachments/assets/8f7d3573-1f89-4c3f-9e6a-8dc565941116)
+
 ## Problem Description
 
 Hypertension, commonly referred to as high blood pressure, is a pervasive and silent health condition that affects millions of individuals worldwide. Characterized by the persistent elevation of blood pressure in the arteries, hypertension serves as a significant risk factor for a multitude of severe health issues, including heart diseases, strokes, kidney failure, and other vascular complications. According to the World Health Organization (WHO), hypertension is responsible for approximately 7.5 million deaths each year, making it one of the leading causes of mortality globally.
