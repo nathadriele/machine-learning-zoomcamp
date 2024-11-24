@@ -313,7 +313,7 @@ To better understand how different thresholds affect the performance of the Logi
 
 ### Threshold Evaluation Function 
 
-# Threshold Performance Metrics
+## Threshold Performance Metrics
 
 #### Analysis of Results
 
