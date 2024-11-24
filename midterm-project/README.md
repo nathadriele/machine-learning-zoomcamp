@@ -23,9 +23,7 @@ By developing accurate and reliable predictive models, this project aims to empo
 5. **Model Deployment:** Make the trained model available through an API for real-world application.
 6. **Documentation and MLOps:** Implement MLOps practices to ensure reproducibility, scalability, and continuous maintenance of the model.
 
-## Index
-
-### Table of Contents
+## Table of Contents
 
 - [Dataset](#dataset)
   - [Description](#description)
@@ -135,7 +133,7 @@ This dataset was obtained from the [Kaggle](https://www.kaggle.com/datasets/pros
 
 ### Univariate Analysis
 
-We analyzed the individual distribution of each numerical and categorical variable to better understand the nature of the data.
+Analyzed the individual distribution of each numerical and categorical variable to better understand the nature of the data.
 
 #### Age Distribution
 
@@ -149,7 +147,7 @@ We analyzed the individual distribution of each numerical and categorical variab
 
 ![alt text](images/image-2.png)
 
-We explored the relationships between independent variables and the target variable (`target`).
+Explored the relationships between independent variables and the target variable (`target`).
 
 #### Boxplots of Numerical Variables by Target
 
@@ -169,13 +167,13 @@ We explored the relationships between independent variables and the target varia
 
 ### Outlier Detection
 
-We used boxplots to identify and remove outliers in numerical variables.
+Used boxplots to identify and remove outliers in numerical variables.
 
 ![alt text](images/image-7.png)
 
 ### Correlation Heatmap
 
-We analyzed the correlations between numerical variables to identify potential multicollinearities.
+Analyzed the correlations between numerical variables to identify potential multicollinearities.
 
 ![alt text](images/image-8.png)
 
@@ -183,31 +181,31 @@ We analyzed the correlations between numerical variables to identify potential m
 
 ### Handling Missing Values
 
-We identified and handled missing values in relevant columns. For example, we replaced missing values in columns like `sex` with the median or another appropriate strategy.
+Identified and handled missing values in relevant columns. For example, replaced missing values in columns like `sex` with the median or another appropriate strategy.
 
 ### Removing Outliers
 
-We applied the Interquartile Range (IQR) method to remove outliers from columns such as `age`, `trestbps`, `chol`, `thalach`, and `oldpeak`.
+Applied the Interquartile Range (IQR) method to remove outliers from columns such as `age`, `trestbps`, `chol`, `thalach`, and `oldpeak`.
 
 ### Feature Scaling
 
-We normalized or standardized numerical features to ensure that all variables contribute equally to the model.
+Normalized or standardized numerical features to ensure that all variables contribute equally to the model.
 
 ## Feature Engineering
 
 ### Creating Categories
 
-We created new categorical features, such as `Age_Category`, based on age ranges, to capture non-linear patterns related to hypertension risk.
+Created new categorical features, such as `Age_Category`, based on age ranges, to capture non-linear patterns related to hypertension risk.
 
 ### Feature Importance Analysis
 
-We used feature selection techniques and correlation analyses to identify the most relevant variables for hypertension prediction.
+Used feature selection techniques and correlation analyses to identify the most relevant variables for hypertension prediction.
 
 ## Model Training and Evaluation
 
 ### Models Used
 
-We trained various classification models, including:
+Trained various classification models, including:
 
 - **Logistic Regression**
 - **Random Forest Classifier**
@@ -216,7 +214,7 @@ We trained various classification models, including:
 
 ### Hyperparameter Tuning
 
-We utilized `GridSearchCV` and `RandomizedSearchCV` to optimize the hyperparameters of each model, aiming to improve their performance.
+Utilized `GridSearchCV` and `RandomizedSearchCV` to optimize the hyperparameters of each model, aiming to improve their performance.
 
 ### Logistic Regression - LogisticRegression Classification Report
 
@@ -289,7 +287,7 @@ The evaluation of the models was conducted using the following metrics:
 
 ## Model Selection
 
-Based on the evaluation metrics, we selected the best-performing models for deployment. Below is a summary of the evaluated models:
+Based on the evaluation metrics, selected the best-performing models for deployment. Below is a summary of the evaluated models:
 
 ## Model Hyperparameters and AUC-ROC
 
@@ -363,21 +361,162 @@ Cross-validation reinforces the superiority of the Random Forest model over the 
 
 After training and evaluating models, it is essential to save the best models for future use and deployment.
 
-
 ### Function to Save the Model
 
-import pickle
-
+```sh
 def save_model(dv, model, output_file):
     with open(output_file, 'wb') as f_out:
         pickle.dump((dv, model), f_out)
     return output_file
 
 input_file = save_model(dv, best_model_lr, 'lr_model_hypertension.bin')
-
-
+```
 
 ## Model Deployment
+
+To make the hypertension prediction model accessible as an API:
+
+```sh
+from flask import Flask, request, jsonify
+import pickle
+
+app = Flask(__name__)
+
+# Load the model and DictVectorizer
+dv, model = pickle.load(open('lr_model_hypertension.bin', 'rb'))
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    patient = request.get_json()
+    X = dv.transform([patient])
+    y_pred = model.predict_proba(X)[0, 1]
+    return jsonify({'hypertension_risk': y_pred})
+
+if __name__ == "__main__":
+    app.run(debug=True, host='0.0.0.0', port=9696)
+```
+
+### Dockerization
+
+To facilitate deployment across different environments and ensure that all dependencies are met, containerized the Flask application using Docker.
+
+```sh
+# Use a base image with Python
+FROM python:3.9-slim
+
+# Working directory
+WORKDIR /app
+
+# Copy requirements file and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the code
+COPY . .
+
+# Expose the port
+EXPOSE 9696
+
+# Command to run the application
+CMD ["python", "predict.py"]
+```
+
+### Build and Run the Container
+
+```sh
+# Build the Docker image
+docker build -t hypertension-prediction .
+
+# Run the container
+docker run -it --rm -p 9696:9696 hypertension-prediction:latest
+```
+
+**Step-by-Step:**
+
+1. Build the Docker Image:
+
+   - The docker build command creates a Docker image from the Dockerfile in the current directory.
+   - The -t hypertension-prediction flag tags the image with the name hypertension-prediction.
+
+2. Run the Container:
+
+   - The docker run command starts a container from the hypertension-prediction:latest image.
+   - The -it --rm flags make the container interactive and remove it automatically after stopping.
+   - The -p 9696:9696 flag maps port 9696 of the container to port 9696 of the host, allowing access to the API.
+
+## Testing
+
+**Test Scenario 1: Local Service**
+
+1. Run the Service Locally:
+
+```sh
+python predict.py
+```
+
+2. Run the Test Client:
+
+```sh
+python prediction-test.py
+```
+
+**Test Scenario 2: Dockerized Service**
+
+1. Build the Dockerized Service:
+   
+```sh
+docker build -t hypertension-prediction .
+```
+
+2. Run the Dockerized Service:
+
+```sh
+docker run -it --rm -p 9696:9696 hypertension-prediction:latest
+```
+
+3. Run the Test Client:
+
+```sh
+python prediction-test.py
+```
+
+### API Usage (Example)
+
+To facilitate interaction with the prediction API, provide an example of how to send a request and interpret the response.
+
+1. Send a POST Request:
+
+```sh
+curl -X POST http://localhost:9696/predict \
+-H "Content-Type: application/json" \
+-d '{
+    "age": 55,
+    "sex": 1,
+    "cp": 3,
+    "trestbps": 140,
+    "chol": 250,
+    "fbs": 0,
+    "restecg": 1,
+    "thalach": 150,
+    "exang": 0,
+    "oldpeak": 2.3,
+    "slope": 0,
+    "ca": 0,
+    "thal": 2
+}'
+```
+
+2. Expected Response:
+
+```sh
+{
+    "hypertension_risk": 0.85
+}
+```
+
+## Conclusion
+
+This project applied Machine Learning techniques to predict hypertension risk, achieving strong performance with models like **XGBoost** (AUC-ROC: 0.89) and **Random Forest** (AUC-ROC: 0.85). Through threshold analysis and cross-validation, validated the models' robustness and generalization capabilities. Deploying the model via a Flask API demonstrates its practical applicability. Future work may focus on optimizing ensemble methods and implementing class balancing techniques to further enhance model performance.
 
 ## Contribution
 
