@@ -278,7 +278,7 @@ The evaluation of the models was conducted using the following metrics:
 
 ### Performance Report of Models
 
-# Model Comparison Table
+## Model Comparison Table
 
 | Model                | Precision (Class 1) | Recall (Class 1) | F1-Score (Class 1) | Accuracy | AUC-ROC |
 |-----------------------|---------------------|------------------|--------------------|----------|---------|
@@ -291,7 +291,7 @@ The evaluation of the models was conducted using the following metrics:
 
 Based on the evaluation metrics, we selected the best-performing models for deployment. Below is a summary of the evaluated models:
 
-# Model Hyperparameters and AUC-ROC
+## Model Hyperparameters and AUC-ROC
 
 | Model                | Best Hyperparameters                                                                                                                       | AUC-ROC |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------|
