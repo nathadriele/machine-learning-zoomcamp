@@ -364,109 +364,20 @@ Cross-validation reinforces the superiority of the Random Forest model over the 
 After training and evaluating models, it is essential to save the best models for future use and deployment.
 
 
-'''rb
+### Function to Save the Model
+
+import pickle
+
 def save_model(dv, model, output_file):
     with open(output_file, 'wb') as f_out:
         pickle.dump((dv, model), f_out)
     return output_file
 
 input_file = save_model(dv, best_model_lr, 'lr_model_hypertension.bin')
-'''
+
 
 
 ## Model Deployment
-
-'''rb
-from flask import Flask, request, jsonify
-import pickle
-
-app = Flask(__name__)
-
-## Load the model and DictVectorizer
-dv, model = pickle.load(open('lr_model_hypertension.bin', 'rb'))
-
-@app.route('/predict', methods=['POST'])
-def predict():
-    patient = request.get_json()
-    X = dv.transform([patient])
-    y_pred = model.predict_proba(X)[0, 1]
-    return jsonify({'hypertension_risk': y_pred})
-
-if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=9696)
-'''
-
-## Dockerization
-
-To facilitate deployment across different environments and ensure that all dependencies are met, we containerized the Flask application using Docker.
-
-'''rb
-### Use a base image with Python
-FROM python:3.9-slim
-
-# Working directory
-WORKDIR /app
-
-# Copy requirements file and install dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the rest of the code
-COPY . .
-
-# Expose the port
-EXPOSE 9696
-
-# Command to run the application
-CMD ["python", "predict.py"]
-'''
-
-## Build and Run the Container
-
-'''rb
-# Build the Docker image
-docker build -t hypertension-prediction .
-
-# Run the container
-docker run -it --rm -p 9696:9696 hypertension-prediction:latest
-'''
-
-Step-by-Step:
-
-1. Build the Docker Image:
-- The docker build command creates a Docker image from the Dockerfile in the current directory.
-- The -t hypertension-prediction flag tags the image with the name hypertension-prediction.
-
-2. Run the Container:
-- The docker run command starts a container from the hypertension-prediction:latest image.
-- The -it --rm flags make the container interactive and remove it automatically after stopping.
-- The -p 9696:9696 flag maps port 9696 of the container to port 9696 of the host, allowing access to the API.
-
-## Testing
-
-### Test Scenario 1: Local Service
-
-1. Run the Service Locally:
-
-python predict.py
-
-2. Run the Test Client:
-
-python prediction-test.py
-
-### Test Scenario 2: Dockerized Service
-
-1. Build the Dockerized Service:
-
-docker build -t hypertension-prediction .
-
-2. Run the Dockerized Service:
-
-docker build -t hypertension-prediction .
-
-3. Run the Test Client:
-
-docker run -it --rm -p 9696:9696 hypertension-prediction:latest
 
 ## Contribution
 
