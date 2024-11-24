@@ -342,7 +342,7 @@ Standard Deviation of Scores: 0.01
 
 ### Analysis of Cross-Validation Results
 
-# Cross-Validation Performance Metrics
+## Cross-Validation Performance Metrics
 
 | Model                | Cross-Validation Scores          | Mean AUC-ROC | Standard Deviation |
 |-----------------------|-----------------------------------|--------------|--------------------|
@@ -382,7 +382,7 @@ import pickle
 
 app = Flask(__name__)
 
-# Load the model and DictVectorizer
+## Load the model and DictVectorizer
 dv, model = pickle.load(open('lr_model_hypertension.bin', 'rb'))
 
 @app.route('/predict', methods=['POST'])
@@ -401,7 +401,7 @@ if __name__ == "__main__":
 To facilitate deployment across different environments and ensure that all dependencies are met, we containerized the Flask application using Docker.
 
 '''rb
-# Use a base image with Python
+### Use a base image with Python
 FROM python:3.9-slim
 
 # Working directory
