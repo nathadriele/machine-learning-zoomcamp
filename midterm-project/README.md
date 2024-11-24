@@ -91,6 +91,93 @@ The dataset used in this project contains detailed information about individuals
 | thal      | Fixed defect, reversible defect, or normal                                                             |
 | target    | Target variable indicating the presence of hypertension (1) or absence (0)                         |
 
+### Sources
+
+This dataset was obtained from the [Kaggle](https://www.kaggle.com/datasets/prosperchuks/health-dataset?select=hypertension_data.csv) platform and is widely used in Machine Learning research focused on health diagnostics and predictive analyses. The original data source has been adapted for this project, ensuring privacy and compliance with ethical guidelines for using health data.
+
+## Requirements
+
+- **Python 3.9+**
+- **Libraries:**
+  - pandas
+  - numpy
+  - scikit-learn
+  - xgboost
+  - flask
+  - pickle
+  - matplotlib
+  - seaborn
+  - gunicorn
+  - tqdm
+
+## Installation
+
+1. **Clone the Repository:**
+    ```bash
+    git clone git@github.com:nathadriele/machine-learning-zoomcamp.git
+    cd midterm-project
+    ```
+
+2. **Create and Activate a Virtual Environment:** 
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3. **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Exploratory Data Analysis (EDA) 
+
+⚠️ **With some print examples taken from the project notebook. For all the details, access the notebook.**
+
+### Univariate Analysis
+
+We analyzed the individual distribution of each numerical and categorical variable to better understand the nature of the data.
+
+#### Age Distribution
+
+![alt text](image.png)
+
+#### Cholesterol Distribution
+
+![alt text](image-1.png)
+
+### Bivariate Analysis
+
+![alt text](image-2.png)
+
+We explored the relationships between independent variables and the target variable (`target`).
+
+#### Boxplots of Numerical Variables by Target
+
+![alt text](image-3.png)
+
+#### Count Plots of Categorical Variables by Target
+
+![alt text](image-4.png)
+
+#### Plot the Distribution of Age Categories in Relation to Target
+
+![alt text](image-5.png)
+
+### Plot of distributions for numerical columns and frequency
+
+![alt text](image-6.png)
+
+### Outlier Detection
+
+We used boxplots to identify and remove outliers in numerical variables.
+
+![alt text](image-7.png)
+
+### Correlation Heatmap
+
+We analyzed the correlations between numerical variables to identify potential multicollinearities.
+
+![alt text](image-8.png)
 
 
 
