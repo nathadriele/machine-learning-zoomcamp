@@ -266,5 +266,208 @@ We utilized `GridSearchCV` and `RandomizedSearchCV` to optimize the hyperparamet
 
 **AUC-ROC Score**: 0.85
 
+## Evaluation Metrics
+
+The evaluation of the models was conducted using the following metrics:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- AUC-ROC
+
+### Performance Report of Models
+
+# Model Comparison Table
+
+| Model                | Precision (Class 1) | Recall (Class 1) | F1-Score (Class 1) | Accuracy | AUC-ROC |
+|-----------------------|---------------------|------------------|--------------------|----------|---------|
+| Logistic Regression   | 0.73               | 0.80            | 0.76              | 0.72     | 0.78    |
+| Random Forest         | 0.76               | 0.85            | 0.80              | 0.75     | 0.85    |
+| XGBoost               | 0.80               | 0.88            | 0.84              | 0.80     | 0.89    |
+| Ensemble Voting       | 0.76               | 0.85            | 0.80              | 0.77     | 0.85    |
+
+## Model Selection
+
+Based on the evaluation metrics, we selected the best-performing models for deployment. Below is a summary of the evaluated models:
+
+# Model Hyperparameters and AUC-ROC
+
+| Model                | Best Hyperparameters                                                                                                                       | AUC-ROC |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| Logistic Regression   | {'C': 10, 'class_weight': 'balanced', 'penalty': 'l2'}                                                                                   | 0.78    |
+| Random Forest         | {'n_estimators': 15, 'min_samples_split': 20, 'min_samples_leaf': 10, 'max_depth': 5, 'class_weight': 'balanced'}                        | 0.85    |
+| XGBoost               | {'subsample': 0.8, 'reg_lambda': 1, 'reg_alpha': 0.01, 'n_estimators': 50, 'min_child_weight': 7, 'max_depth': 5, 'learning_rate': 0.05, 'gamma': 0.1, 'colsample_bytree': 0.6} | 0.89    |
+| Ensemble Voting       | {'estimators': [('lr', best_model_lr), ('rf', best_model_rf), ('xgb', best_model_xgb)], 'voting': 'soft'}                                | 0.85    |
 
 
+**Best Model**: XGBoost Classifier is the recommended model due to its AUC-ROC of 0.89, indicating a strong discriminative ability between classes. The Random Forest Classifier also demonstrated robust performance with an AUC-ROC of 0.85. The Ensemble Voting Classifier achieved an AUC-ROC of 0.85, combining the strengths of individual models, making it an effective and balanced option.
+
+## Threshold Analysis for Model Performance
+
+The choice of threshold for classifying predicted probabilities into classes can significantly impact the model's performance metrics. A lower threshold tends to increase recall (sensitivity) but may decrease precision, while a higher threshold tends to increase precision but may decrease recall.
+
+To better understand how different thresholds affect the performance of the Logistic Regression model, let's do the following analysis here:
+
+### Threshold Evaluation Function 
+
+# Threshold Performance Metrics
+
+#### Analysis of Results
+
+- AUC-ROC remains at 0.78, as it is a metric independent of the threshold used.
+- Precision increases as the threshold increases, indicating that the model becomes more conservative in positive classification, reducing false positives.
+- Recall decreases as the threshold increases, indicating that the model fails to identify some positive cases (increasing false negatives).
+- F1-Score reaches its maximum at intermediate thresholds (e.g., 0.40 with an F1-Score of 0.84), balancing precision and recall.
+
+## Cross-Validation Report
+
+To ensure the robustness of the developed models, cross-validation was performed using K-Fold Cross-Validation with 5 splits (folds). This approach allows evaluating the performance of the models in different subsets of the data.
+
+### Cross-Validation Reporting
+
+#### Logistic Regression
+
+Logistic Regression Cross Validation
+Cross-Validation Scores: [0.78 0.80 0.75 0.82 0.76]
+Mean AUC-ROC Score: 0.78
+Standard Deviation of Scores: 0.03
+
+#### Random Forest
+
+Random Forest Cross Validation
+Cross-Validation Scores: [0.83 0.82 0.85 0.84 0.86]
+Mean AUC-ROC Score: 0.84
+Standard Deviation of Scores: 0.01
+
+### Analysis of Cross-Validation Results
+
+# Cross-Validation Performance Metrics
+
+| Model                | Cross-Validation Scores          | Mean AUC-ROC | Standard Deviation |
+|-----------------------|-----------------------------------|--------------|--------------------|
+| Logistic Regression   | [0.78, 0.80, 0.75, 0.82, 0.76]  | 0.78         | 0.03               |
+| Random Forest         | [0.83, 0.82, 0.85, 0.84, 0.86]  | 0.84         | 0.01               |
+
+
+#### Observations:
+
+Random Forest presents higher mean AUC-ROC (0.84) compared to Logistic Regression (0.78), indicating superior discriminative performance.
+Both models have low standard deviations (Random Forest: 0.01, Logistic Regression: 0.03), suggesting consistency in their performance across different folds.
+
+### Conclusion on Cross-Validation Report
+
+Cross-validation reinforces the superiority of the Random Forest model over the Logistic Regression model in terms of AUC-ROC. The consistency of the metrics across different data splits suggests that the Random Forest model has good generalization and robustness for this classification problem.
+
+## Save and Load the Model
+
+After training and evaluating models, it is essential to save the best models for future use and deployment.
+
+
+'''rb
+def save_model(dv, model, output_file):
+    with open(output_file, 'wb') as f_out:
+        pickle.dump((dv, model), f_out)
+    return output_file
+
+input_file = save_model(dv, best_model_lr, 'lr_model_hypertension.bin')
+'''
+
+
+## Model Deployment
+
+'''rb
+from flask import Flask, request, jsonify
+import pickle
+
+app = Flask(__name__)
+
+# Load the model and DictVectorizer
+dv, model = pickle.load(open('lr_model_hypertension.bin', 'rb'))
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    patient = request.get_json()
+    X = dv.transform([patient])
+    y_pred = model.predict_proba(X)[0, 1]
+    return jsonify({'hypertension_risk': y_pred})
+
+if __name__ == "__main__":
+    app.run(debug=True, host='0.0.0.0', port=9696)
+'''
+
+## Dockerization
+
+To facilitate deployment across different environments and ensure that all dependencies are met, we containerized the Flask application using Docker.
+
+'''rb
+# Use a base image with Python
+FROM python:3.9-slim
+
+# Working directory
+WORKDIR /app
+
+# Copy requirements file and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the code
+COPY . .
+
+# Expose the port
+EXPOSE 9696
+
+# Command to run the application
+CMD ["python", "predict.py"]
+'''
+
+## Build and Run the Container
+
+'''rb
+# Build the Docker image
+docker build -t hypertension-prediction .
+
+# Run the container
+docker run -it --rm -p 9696:9696 hypertension-prediction:latest
+'''
+
+Step-by-Step:
+
+1. Build the Docker Image:
+- The docker build command creates a Docker image from the Dockerfile in the current directory.
+- The -t hypertension-prediction flag tags the image with the name hypertension-prediction.
+
+2. Run the Container:
+- The docker run command starts a container from the hypertension-prediction:latest image.
+- The -it --rm flags make the container interactive and remove it automatically after stopping.
+- The -p 9696:9696 flag maps port 9696 of the container to port 9696 of the host, allowing access to the API.
+
+## Testing
+
+### Test Scenario 1: Local Service
+
+1. Run the Service Locally:
+
+python predict.py
+
+2. Run the Test Client:
+
+python prediction-test.py
+
+### Test Scenario 2: Dockerized Service
+
+1. Build the Dockerized Service:
+
+docker build -t hypertension-prediction .
+
+2. Run the Dockerized Service:
+
+docker build -t hypertension-prediction .
+
+3. Run the Test Client:
+
+docker run -it --rm -p 9696:9696 hypertension-prediction:latest
+
+## Contribution
+
+This project is a simple project that is part of the Zoomcamp course. Contributions are welcome to improve the project, add new features or improve its documentation. Whether it's suggesting an improvement or contributing code. Thank you, my friend.
