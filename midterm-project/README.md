@@ -218,9 +218,7 @@ We trained various classification models, including:
 
 We utilized `GridSearchCV` and `RandomizedSearchCV` to optimize the hyperparameters of each model, aiming to improve their performance.
 
-#### Logistic Regression 
-
-# LogisticRegression Classification Report
+### Logistic Regression - LogisticRegression Classification Report
 
 | Class         | Precision | Recall | F1-Score | Support |
 |---------------|-----------|--------|----------|---------|
@@ -232,9 +230,7 @@ We utilized `GridSearchCV` and `RandomizedSearchCV` to optimize the hyperparamet
 
 **AUC-ROC Score**: 0.78
 
-#### Random Forest Classifier
-
-# RandomForest Classification Report
+### Random Forest Classifier - RandomForest Classification Report
 
 | Class         | Precision | Recall | F1-Score | Support |
 |---------------|-----------|--------|----------|---------|
@@ -246,9 +242,7 @@ We utilized `GridSearchCV` and `RandomizedSearchCV` to optimize the hyperparamet
 
 **AUC-ROC Score**: 0.85
 
-#### XGBoost Classifier
-
-# XGBoost Classification Report
+### XGBoost Classifier - XGBoost Classification Report
 
 | Class         | Precision | Recall | F1-Score | Support |
 |---------------|-----------|--------|----------|---------|
@@ -260,9 +254,7 @@ We utilized `GridSearchCV` and `RandomizedSearchCV` to optimize the hyperparamet
 
 **AUC-ROC Score**: 0.89
 
-#### Ensemble Voting Classifier
-
-# Ensemble Learning - Voting Classifier Report
+### Ensemble Voting Classifier - Voting Classifier Report
 
 | Class         | Precision | Recall | F1-Score | Support |
 |---------------|-----------|--------|----------|---------|
