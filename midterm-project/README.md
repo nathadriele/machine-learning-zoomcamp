@@ -464,6 +464,8 @@ python predict.py
 python prediction-test.py
 ```
 
+![alt text](images/image-9.png)
+
 **Test Scenario 2: Dockerized Service**
 
 1. Build the Dockerized Service:
