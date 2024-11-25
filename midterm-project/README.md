@@ -330,17 +330,21 @@ To ensure the robustness of the developed models, cross-validation was performed
 
 #### Logistic Regression
 
+```sh
 Logistic Regression Cross Validation
 Cross-Validation Scores: [0.78 0.80 0.75 0.82 0.76]
 Mean AUC-ROC Score: 0.78
 Standard Deviation of Scores: 0.03
+```
 
 #### Random Forest
 
+```sh
 Random Forest Cross Validation
 Cross-Validation Scores: [0.83 0.82 0.85 0.84 0.86]
 Mean AUC-ROC Score: 0.84
 Standard Deviation of Scores: 0.01
+```
 
 ### Analysis of Cross-Validation Results
 
