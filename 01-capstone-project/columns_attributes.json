@@ -1,0 +1,45 @@
+{
+    "model": [
+      "category",
+      ["Fiesta", "Focus", "Puma", "Kuga", "EcoSport"]
+    ],
+    "year": [
+      "numeric",
+      "int64",
+      2000,
+      2023
+    ],
+    "engineSize": [
+      "numeric",
+      "float64",
+      1.0,
+      3.0
+    ],
+    "fuelType": [
+      "category",
+      ["Petrol", "Diesel", "Hybrid", "Electric"]
+    ],
+    "transmission": [
+      "category",
+      ["Manual", "Automatic"]
+    ],
+    "mileage": [
+      "numeric",
+      "int64",
+      0,
+      300000
+    ],
+    "tax": [
+      "numeric",
+      "int64",
+      0,
+      600
+    ],
+    "mpg": [
+      "numeric",
+      "float64",
+      0.0,
+      100.0
+    ]
+  }
+  
