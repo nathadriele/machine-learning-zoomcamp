@@ -10,6 +10,8 @@ pandas = "*"
 xgboost = "*"
 joblib = "*"
 streamlit = "*"
+matplotlib = "*"
+seaborn = "*"
 
 [dev-packages]
 
