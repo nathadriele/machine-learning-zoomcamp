@@ -1,10 +1,22 @@
 {
-    "Ford": [
+  "Ford": [
+      "B-MAX",
+      "C-MAX",
+      "EcoSport",
+      "Edge",
       "Fiesta",
       "Focus",
-      "Puma",
+      "Galaxy",
+      "Grand C-MAX",
+      "Grand Tourneo Connect",
+      "KA",
+      "Ka+",
       "Kuga",
-      "EcoSport"
-    ]
-  }
-  
+      "Mondeo",
+      "Mustang",
+      "Puma",
+      "S-MAX",
+      "Tourneo Connect",
+      "Tourneo Custom"
+  ]
+}
