@@ -1,0 +1,363 @@
+Company,Country of Origin,Model,Number of cc,Horsepower,Torque,Transmission Type,Drivetrain,Number of Seating,Price (in INR),Year,Looks,Body Type,Engine Type,Number of Cylinders
+Aprilia,Italy,RS 660,659,100 hp,67 Nm,6-speed quickshifter,Chain,2,"INR 10,99,000",2021,Sport,Naked,Parallel-twin,2
+Aprilia,Italy,Tuono 660,659,100 hp,67 Nm,6-speed quickshifter,Chain,2,"INR 11,99,000",2021,Sport,Naked,Parallel-twin,2
+Aprilia,Italy,RS 125,124.9,15 hp,12 Nm,6-speed manual,Chain,2,"INR 4,49,000",2022,Sport,Racing,Single-cylinder,1
+Aprilia,Italy,Shiver 900,896,95 hp,90 Nm,6-speed manual,Shaft,2,"INR 13,99,000",2022,Adventure,Naked,V-twin,2
+Aprilia,Italy,Tuono 1100,1077,175 hp,121 Nm,6-speed manual,Shaft,2,"INR 19,99,000",2022,Adventure,Naked,V-twin,2
+Benelli,Italy,TNT 125,125,11 hp,10.8 Nm,Manual,Chain,2,"1,25,000",2023,Classy,Sport,Single,1
+Benelli,Italy,TNT 250,250,27 hp,21.2 Nm,Manual,Chain,2,"1,75,000",2023,Sporty,Sport,Single,1
+Benelli,Italy,TNT 300,300,39 hp,26.5 Nm,Manual,Chain,2,"2,00,000",2023,Classy,Sport,Single,1
+Benelli,Italy,TNT 600i,600,85 hp,54.6 Nm,Manual,Chain,2,"4,00,000",2023,Sporty,Sport,Parallel-twin,2
+Benelli,Italy,TNT 899,899,116 hp,86.3 Nm,Manual,Chain,2,"6,00,000",2023,Sporty,Sport,Triple,3
+Benelli,Italy,TRK 251,250,27 hp,21.2 Nm,Manual,Chain,2,"2,25,000",2023,Adventure,Adventure,Single,1
+Benelli,Italy,TRK 502,500,47 hp,46 Nm,Manual,Chain,2,"3,50,000",2023,Adventure,Adventure,Parallel-twin,2
+Benelli,Italy,Leoncino 500,500,47 hp,46 Nm,Manual,Chain,2,"3,25,000",2023,Retro,Cruiser,Parallel-twin,2
+BMW,Germany,G 310 GS,313,34 hp,28 Nm,6-speed Manual,Chain,2,"3,00,000",2023,Adventure,Adventure,Single,1
+BMW,Germany,G 310 R,313,34 hp,28 Nm,6-speed Manual,Chain,2,"2,50,000",2023,Sporty,Roadster,Single,1
+BMW,Germany,F 850 GS,853,95 hp,92 Nm,6-speed Manual,Shaft,2,"6,00,000",2023,Adventure,Adventure,Parallel-twin,2
+BMW,Germany,F 850 GS Adventure,853,95 hp,92 Nm,6-speed Manual,Shaft,2,"8,00,000",2023,Adventure,Adventure,Parallel-twin,2
+BMW,Germany,R 1250 GS,"1,170",136 hp,112 Nm,6-speed Manual,Shaft,2,"12,00,000",2023,Adventure,Adventure,Boxer,2
+BMW,Germany,R 1250 RT,"1,170",136 hp,112 Nm,6-speed Manual,Shaft,2,"14,00,000",2023,Touring,Cruiser,Boxer,2
+BMW,Germany,S 1000 RR,999,199 hp,113 Nm,6-speed Manual,Chain,2,"16,00,000",2023,Sporty,Superbike,Liquid-cooled inline-4,4
+BMW,Germany,S 1000 R,999,165 hp,112 Nm,6-speed Manual,Chain,2,"12,00,000",2023,Sporty,Roadster,Liquid-cooled inline-4,4
+Brixton Motorcycles,Austria,Cromwell 125,125,11.7 hp,11.9 Nm,Manual,Chain,1,1.50 lakhs,2022,Classy,Cafe Racer,"Single-cylinder, air-cooled",1
+Brixton Motorcycles,Austria,BX 150,149,11.7 hp,11.9 Nm,Manual,Chain,2,1.25 lakhs,2022,Classic,Bobber,"Single-cylinder, air-cooled",1
+Brixton Motorcycles,Austria,Crossfire 500,500,41 hp,38 Nm,Manual,Chain,2,3.50 lakhs,2022,Adventure,Scrambler,"Single-cylinder, liquid-cooled",1
+Brixton Motorcycles,Austria,Crossfire 500 X,500,41 hp,38 Nm,Manual,Chain,2,3.75 lakhs,2022,Adventure,Cafe Racer,"Single-cylinder, liquid-cooled",1
+Brixton Motorcycles,Austria,Sunray 500,500,41 hp,38 Nm,Manual,Chain,2,4 lakhs,2022,Classic,Cruiser,"Single-cylinder, liquid-cooled",1
+Buell Motorcycle Company,United States,Blast,492,45 hp,37 Nm,Manual,Chain,1,4.5 lakhs,2005,Classy,Naked,"Single-cylinder, liquid-cooled",1
+Buell Motorcycle Company,United States,Lightning,984,110 hp,97 Nm,Manual,Belt,1,10 lakhs,2003,Sporty,Sportbike,"V-twin, liquid-cooled",2
+Buell Motorcycle Company,United States,Ulysses,1125,96 hp,98 Nm,Manual,Belt,2,13 lakhs,2006,Adventure,Adventure touring,"V-twin, liquid-cooled",2
+Buell Motorcycle Company,United States,XB9R Firebolt,984,110 hp,97 Nm,Manual,Chain,1,11 lakhs,2003,Sporty,Naked,"V-twin, liquid-cooled",2
+Buell Motorcycle Company,United States,XB12S Lightning,1201,105 hp,103 Nm,Manual,Chain,1,12 lakhs,2005,Sporty,Sportbike,"V-twin, liquid-cooled",2
+Cagiva,Italy,Raptor 125,124.9,15 hp,12 Nm,Manual,Chain,1,1.5 lakhs,2005,Sporty,Naked,"Single-cylinder, air-cooled",1
+Cagiva,Italy,Mito 125,125,15 hp,12 Nm,Manual,Chain,1,1.25 lakhs,2002,Sporty,Sportbike,"Single-cylinder, air-cooled",1
+Cagiva,Italy,Elefant 900,893,80 hp,66 Nm,Manual,Chain,2,8 lakhs,1994,Adventure,Adventure touring,"V-twin, air-cooled",2
+Cagiva,Italy,V-Raptor 1000,998,100 hp,95 Nm,Manual,Chain,1,10 lakhs,1998,Sporty,Superbike,"V-twin, liquid-cooled",2
+Cagiva,Italy,Gran Canyon 1100,1078,95 hp,98 Nm,Manual,Chain,2,11 lakhs,2000,Adventure,Adventure touring,"V-twin, liquid-cooled",2
+CCM,United Kingdom,Spitfire 650,650,65 hp,54 Nm,6-speed manual,Chain,1,12 lakhs,2022,Classy,Naked,"Parallel-twin, liquid-cooled",2
+CCM,United Kingdom,GP450R,450,60 hp,40 Nm,6-speed manual,Chain,1,10 lakhs,2022,Sporty,Supermoto,"Single-cylinder, liquid-cooled",1
+CCM,United Kingdom,Interceptor 900,900,86 hp,77 Nm,6-speed manual,Chain,2,15 lakhs,2022,Adventure,Adventure touring,"Parallel-twin, liquid-cooled",2
+CCM,United Kingdom,Storm 1200,1200,115 hp,105 Nm,6-speed manual,Chain,2,20 lakhs,2022,Adventure,Adventure touring,"Parallel-twin, liquid-cooled",2
+CFMOTO,China,300NK,292.4 cc,33.99 PS,21.5 Nm,6-speed manual,Chain drive,1,"Rs. 2,29,000",2022,Classy,Naked,Single-cylinder,1
+CFMOTO,China,650NK,649.3 cc,61.18 PS,45 Nm,6-speed manual,Chain drive,1,"Rs. 4,29,000",2022,Classy,Naked,Parallel-twin,2
+CFMOTO,China,650MT,649 cc,70.70 PS,55 Nm,6-speed manual,Chain drive,2,"Rs. 5,29,000",2022,Adventure,Adventure,Parallel-twin,2
+CFMOTO,China,650GT,649.3 cc,62.54 PS,49 Nm,6-speed manual,Shaft drive,2,"Rs. 5,59,000",2022,Touring,Sport-touring,Parallel-twin,2
+Confederate,USA,Hellcat,"1,967 cc",205 hp,135 lb-ft,6-speed manual,Belt drive,1,"$55,000",2022,Retro,Cruiser,V-twin,2
+Confederate,USA,Wraith,"1,967 cc",190 hp,125 lb-ft,6-speed manual,Belt drive,1,"$50,000",2022,Modern,Roadster,V-twin,2
+Confederate,USA,X132 Hellcat Combat Fighter,"2,163 cc",227 hp,143 lb-ft,6-speed manual,Belt drive,1,"$100,000",2023,Modern,Fighter,V-twin,2
+Daelim,South Korea,VL 125,124.9 cc,10.8 hp,10.2 Nm,5-speed manual,Chain drive,1,"Rs. 1,29,500",2022,Classy,Cruiser,Single-cylinder,1
+Daelim,South Korea,V125 FI,124.9 cc,11.2 hp,10.2 Nm,CVT,Automatic,1,"Rs. 1,40,000",2022,Classy,Scooter,Single-cylinder,1
+Daelim,South Korea,NS 250 FI,249.6 cc,27.6 hp,22.4 Nm,6-speed manual,Chain drive,1,"Rs. 2,39,000",2023,Sporty,Naked,Single-cylinder,1
+Daelim,South Korea,Roadwin 250,249.6 cc,27.6 hp,22.4 Nm,6-speed manual,Chain drive,1,"Rs. 2,59,000",2023,Adventure,Adventure,Single-cylinder,1
+Ducati,Italy,Panigale V4,1103,221 hp,124 lb-ft,6-speed sequential manual,Chain,1,27.41 Lakh,2022,Classy,Sports,V4,4
+Ducati,Italy,Diavel,1262,159.6 hp,93 lb-ft,6-speed automatic,Belt,1,25.91 Lakh,2022,Bold,Cruiser,L-Twin,2
+Ducati,Italy,Scrambler 800,803,73 hp,47 lb-ft,6-speed manual,Chain,2,9.39 Lakh,2022,Retro,Standard,L-Twin,2
+Ducati,Italy,Monster,937,111 hp,69 lb-ft,6-speed manual,Chain,1,12.95 Lakh,2022,Sleek,Naked,L-Twin,2
+Ducati,Italy,Multistrada V4,1158,168 hp,93 lb-ft,6-speed sequential manual,Shaft,2,21.48 Lakh,2022,Adventure,Adventure,V4,4
+Harley-Davidson,United States,Nightster,975,88.5,65 ft-lbs,6-speed manual,Belt drive,1,"17,49,000",2023,Classy,Cruiser,V-twin,1
+Harley-Davidson,United States,Sportster S,1252,120.7,94 ft-lbs,6-speed manual,Belt drive,1,"18,79,000",2023,Classy,Cruiser,V-twin,1
+Harley-Davidson,United States,Road Glide Special,1868,92.5,118 ft-lbs,6-speed automatic,Belt drive,1,"40,49,000",2023,Classy,Tourer,V-twin,2
+Harley-Davidson,United States,Street Glide Special,1868,92.5,118 ft-lbs,6-speed automatic,Belt drive,1,"37,49,000",2023,Classy,Tourer,V-twin,2
+Harley-Davidson,United States,PAN America 1250,1252,150.2,94 ft-lbs,6-speed manual,Chain drive,2,"24,49,000",2023,Adventure,Adventure,V-twin,2
+Harley-Davidson,United States,Fat Bob,1868,92.5,118 ft-lbs,6-speed manual,Belt drive,1,"20,49,000",2023,Classy,Cruiser,V-twin,2
+Harley-Davidson,United States,Fat Boy,1868,92.5,118 ft-lbs,6-speed manual,Belt drive,1,"24,49,000",2023,Classy,Cruiser,V-twin,2
+Harley-Davidson,United States,Heritage Classic,1868,94,112 ft-lbs,6-speed manual,Belt drive,2,"26,59,000",2023,Classy,Cruiser,V-twin,2
+Honda,Japan,CBR250R,249.6 cc,"26.5 hp @ 8,500 rpm","19.4 Nm @ 7,000 rpm",Manual,Chain drive,2,"1,45,000",2023,Classy,Sport,Single-cylinder,2
+Honda,Japan,CB350R,348.36 cc,"31 hp @ 8,500 rpm","27.3 Nm @ 6,500 rpm",Manual,Chain drive,2,"1,85,000",2023,Classic,Standard,Single-cylinder,1
+Honda,India,Hness CB350,348.36 cc,"29.6 hp @ 5,500 rpm","30.0 Nm @ 3,000 rpm",Manual,Chain drive,2,"1,65,000",2022,Classic,Standard,Single-cylinder,1
+Honda,India,CB Shine,124.9 cc,"10.5 hp @ 7,500 rpm","10.3 Nm @ 5,500 rpm",Manual,Chain drive,2,"65,000",2023,Modern,Standard,Single-cylinder,1
+Honda,India,Activa 125,124.9 cc,"8.75 hp @ 7,500 rpm","10.3 Nm @ 5,500 rpm",CVT,Automatic,2,"62,000",2023,Modern,Scooter,Single-cylinder,1
+Husqvarna,Sweden,Vitpilen 401,373.2 cc,"43 hp @ 9,000 rpm","37 Nm @ 7,000 rpm",6-speed manual,Chain drive,2,"3,25,000",2023,"Modern, stylish",Naked,Single-cylinder,1
+Husqvarna,Sweden,Svartpilen 401,373.2 cc,"43 hp @ 9,000 rpm","37 Nm @ 7,000 rpm",6-speed manual,Chain drive,2,"3,35,000",2023,"Modern, rugged",Adventure,Single-cylinder,1
+Husqvarna,Sweden,701 Supermoto,693 cc,"75 hp @ 8,500 rpm","72 Nm @ 6,750 rpm",6-speed manual,Chain drive,1,"6,50,000",2023,"Modern, sporty",Supermoto,Single-cylinder,1
+Husqvarna,Sweden,701 Enduro,693 cc,"75 hp @ 8,500 rpm","72 Nm @ 6,750 rpm",6-speed manual,Chain drive,1,"7,50,000",2023,"Modern, off-road",Enduro,Single-cylinder,1
+Indian,USA,Chief Dark Horse,1133 cc,"108 hp @ 5,600 rpm","114 Nm @ 3,200 rpm",6-speed manual,Chain drive,2,"22,999",2023,"Classic, rugged",Cruiser,V-twin,2
+Indian,USA,Chief Bobber Dark Horse,1133 cc,"108 hp @ 5,600 rpm","114 Nm @ 3,200 rpm",6-speed manual,Chain drive,2,"23,999",2023,"Classic, bobber",Cruiser,V-twin,2
+Indian,USA,Challenger Dark Horse,1799 cc,"122 hp @ 6,000 rpm","178 Nm @ 3,800 rpm",6-speed manual,Belt drive,2,"25,999",2023,"Modern, muscular",Cruiser,V-twin,2
+Indian,USA,FTR 1200 S,1203 cc,"120 hp @ 8,250 rpm","110 Nm @ 6,000 rpm",6-speed manual,Chain drive,1,"19,999",2023,"Modern, sporty",Standard,V-twin,1
+Indian,USA,Scout Bobber,1133 cc,"94 hp @ 6,000 rpm","95 Nm @ 3,750 rpm",6-speed manual,Chain drive,2,"14,999",2023,"Modern, bobber",Standard,V-twin,1
+Kawasaki,Japan,Ninja 300,296,39 PS @ 11000 rpm,27 Nm @ 10000 rpm,6-speed manual,Chain,2,3.43 Lakh,2023,Classy,Sports,"Liquid-cooled, parallel-twin",2
+Kawasaki,Japan,Ninja 400,399,"45 PS @ 10,000 rpm",39 Nm @ 8000 rpm,6-speed manual,Chain,2,5.19 Lakh,2023,Classy,Sports,"Liquid-cooled, parallel-twin",2
+Kawasaki,Japan,Ninja 650,649,67 PS @ 8000 rpm,66 Nm @ 6500 rpm,6-speed manual,Chain,2,6.65 Lakh,2023,Classy,Sports,"Liquid-cooled, parallel-twin",2
+Kawasaki,Japan,Z900,948,125 PS @ 9500 rpm,98.6 Nm @ 7700 rpm,6-speed manual,Chain,2,9.11 Lakh,2023,Aggressive,Naked,"Liquid-cooled, four-cylinder",4
+Kawasaki,Japan,Z H2,998,"197 PS @ 11,000 rpm",140 Nm @ 8500 rpm,6-speed manual,Shaft,2,23.02 Lakh,2023,Aggressive,Naked,"Supercharged, four-cylinder",4
+Kawasaki,Japan,Vulcan S,649,60 PS @ 6500 rpm,62 Nm @ 6500 rpm,6-speed manual,Belt,2,6.95 Lakh,2023,Classic,Cruiser,"Liquid-cooled, parallel-twin",2
+KTM,Austria,125 Duke,125,15 hp,12 Nm,6-speed manual,Chain,1,1.78 Lakh,2023,Classy,Naked,Single-cylinder,1
+KTM,Austria,200 Duke,200,25 hp,19 Nm,6-speed manual,Chain,1,1.92 Lakh,2023,Classy,Naked,Single-cylinder,1
+KTM,Austria,250 Duke,250,30 hp,24 Nm,6-speed manual,Chain,1,2.20 Lakh,2023,Classy,Naked,Single-cylinder,1
+KTM,Austria,390 Duke,390,43 hp,37 Nm,6-speed manual,Chain,1,3.10 Lakh,2023,Classy,Naked,Single-cylinder,1
+KTM,Austria,RC 200,200,25 hp,19 Nm,6-speed manual,Chain,1,2.05 Lakh,2023,Race-inspired,Sport,Single-cylinder,1
+KTM,Austria,RC 390,390,43 hp,37 Nm,6-speed manual,Chain,1,3.30 Lakh,2023,Race-inspired,Sport,Single-cylinder,1
+KTM,Austria,390 Adventure,373,43 hp,37 Nm,6-speed manual,Chain,2,3.60 Lakh,2023,Adventure,Adventure,Single-cylinder,1
+KTM,Austria,790 Adventure,799,95 hp,88 Nm,6-speed manual,Chain,2,5.50 Lakh,2023,Adventure,Adventure,Parallel-twin,2
+Kymco,Taiwan,Agility 125,125,10 hp,9.5 Nm,CVT,Automatic,1,"75,000",2023,Classy,Scooter,Single-cylinder,1
+Kymco,Taiwan,Downtown 300i,300,29 hp,27 Nm,CVT,Automatic,2,"1,50,000",2023,Classy,Scooter,Single-cylinder,1
+Kymco,Taiwan,K-XCT 300,300,29 hp,27 Nm,CVT,Automatic,2,"1,60,000",2023,Adventure,Adventure,Single-cylinder,1
+Kymco,Taiwan,AK 550,550,47 hp,55 Nm,6-speed manual,Chain,2,"2,50,000",2023,Sport,Sport,Parallel-twin,2
+Leonart,Italy,Daytona 125,125,12.50 HP @ 10000 RPM,10.2 Nm @ 8000 RPM,Manual,Chain Drive,1,"Rs. 1,05,000",2023,Modern,Naked,"Air Cooled, Single Cylinder, 4-Stroke",1
+Leonart,Italy,Gran Turismo 300,300,25.8 HP @ 9000 RPM,23.5 Nm @ 7000 RPM,Manual,Chain Drive,1,"Rs. 1,50,000",2023,Modern,Sport,"Liquid Cooled, Single Cylinder, 4-Stroke",1
+Leonart,Italy,Cafe Racer 500,500,38 HP @ 9000 RPM,38 Nm @ 8000 RPM,Manual,Chain Drive,1,"Rs. 2,00,000",2023,Retro,Cafe Racer,"Air Cooled, Single Cylinder, 4-Stroke",1
+Leonart,Italy,Scrambler 650,650,47 HP @ 9000 RPM,50 Nm @ 8000 RPM,Manual,Chain Drive,1,"Rs. 2,50,000",2023,Adventure,Scrambler,"Liquid Cooled, Single Cylinder, 4-Stroke",1
+Lambretta,India,V125,124.7,10.19 PS,9.2 Nm,Automatic,Belt Drive,1,"₹ 80,000 - ₹ 90,000",2023,Classy,Scooter,"Air Cooled, Single Cylinder, 4-Stroke",1
+Lambretta,India,V200,200,12.9 PS,16 Nm,Automatic,Belt Drive,1,"₹ 1,00,000 - ₹ 1,30,000",2023,Classy,Scooter,"Air Cooled, Single Cylinder, 4-Stroke",1
+Lifan,China,LF125S,125,9.4 hp,9.5 Nm,CVT,Automatic,1,"₹ 50,000 - ₹ 60,000",2023,Modern,Scooter,"Air Cooled, Single Cylinder, 4-Stroke",1
+Lifan,China,LF200GY,200,12 hp,14 Nm,CVT,Automatic,1,"₹ 70,000 - ₹ 80,000",2023,Modern,Scooter,"Air Cooled, Single Cylinder, 4-Stroke",1
+Lifan,China,LF250K,250,18.5 hp,18 Nm,6-speed manual,Chain Drive,1,"₹ 1,00,000 - ₹ 1,20,000",2023,Modern,Adventure,"Air Cooled, Single Cylinder, 4-Stroke",1
+Lifan,China,LF250GY-3,250,22.5 hp,21 Nm,6-speed manual,Chain Drive,1,"₹ 1,00,000 - ₹ 1,20,000",2023,Modern,Sport,"Air Cooled, Single Cylinder, 4-Stroke",1
+Mahindra,India,Mojo 300,295,26.5 bhp @ 8500 rpm,28 Nm @ 6500 rpm,6-speed manual,Chain drive,2,"Rs. 2,08,000",2015,Adventure,Naked,"Single-cylinder, liquid-cooled, DOHC",1
+Mahindra,India,Xpulse 200,199.6,18.1 bhp @ 8500 rpm,17.3 Nm @ 6500 rpm,5-speed manual,Chain drive,2,"Rs. 1,28,990",2019,Adventure,Standard,"Single-cylinder, air-cooled, OHC",1
+Mahindra,India,Gusto 125,124.9,10.7 bhp @ 8500 rpm,10.5 Nm @ 6500 rpm,4-speed manual,Chain drive,2,"Rs. 69,990",2017,Commuter,Standard,"Single-cylinder, air-cooled, OHC",1
+Mahindra,India,Duro DZire,110,8.5 bhp @ 7500 rpm,8.5 Nm @ 5500 rpm,4-speed manual,Chain drive,2,"Rs. 54,990",2019,Commuter,Standard,"Single-cylinder, air-cooled, OHC",1
+Mahindra,India,Centuro 100,106.7,8.5 PS @ 7500 rpm,8.5 Nm @ 5500 rpm,4-speed manual,Chain drive,2,"Rs. 54,095",2014,Commuter,Standard,"Single-cylinder, air-cooled, OHC",1
+Moto Guzzi,Italy,V85 TT,853,80,73.8 lb-ft,6-speed manual,Shaft drive,2,15.40 lakh,2022,Adventure,Standard,V-twin,90°
+Moto Guzzi,Italy,V9 Bobber,900,65,59.4 lb-ft,6-speed manual,Shaft drive,2,13.6 lakh,2016,Bobber,Cruiser,V-twin,90°
+Moto Guzzi,Italy,V9 Roamer,900,65,59.4 lb-ft,6-speed manual,Shaft drive,2,13.3 lakh,2016,Cruiser,Cruiser,V-twin,90°
+Moto Guzzi,Italy,Audace,900,75,72 lb-ft,6-speed manual,Shaft drive,2,14.8 lakh,2019,Cruiser,Cruiser,V-twin,90°
+Moto Guzzi,Italy,Eldorado,1400,96,86 lb-ft,6-speed manual,Shaft drive,2,17.5 lakh,2016,Classic,Cruiser,V-twin,90°
+Moto Guzzi,Italy,MGX-21,1700,115,89 lb-ft,6-speed automatic,Shaft drive,2,24.9 lakh,2021,Cruiser,Cruiser,V-twin,90°
+MV Agusta,Italy,F3 800 RR,798,147 hp,88 Nm,6-speed sequential,Chain,2,18.9 lakhs,2023,Classy,Supersport,3-cylinder,3
+MV Agusta,Italy,Brutale 1000 RR,998,208 hp,116 Nm,6-speed sequential,Chain,2,25.4 lakhs,2023,Aggressive,Naked,3-cylinder,3
+MV Agusta,Italy,Turismo Veloce Lusso,800,110 hp,86 Nm,6-speed sequential,Shaft,2,22.8 lakhs,2023,Classic,Sport touring,3-cylinder,3
+MV Agusta,Italy,Dragster RR,800,140 hp,86 Nm,6-speed sequential,Chain,2,21.1 lakhs,2023,Futuristic,Naked,3-cylinder,3
+MV Agusta,Italy,Superveloce 800,798,140 hp,86 Nm,6-speed sequential,Chain,2,20.7 lakhs,2023,Retro,Cafe racer,3-cylinder,3
+Norton,UK,Commando 961 Café Racer,961,80,67,6-speed manual,Chain drive,2,Rs. 20.99 lakh,2023,Classy,Café racer,"Air-cooled, parallel-twin",2
+Norton,UK,Commando 961 Sport,961,80,67,6-speed manual,Chain drive,2,Rs. 20.99 lakh,2023,Classy,Sports bike,"Air-cooled, parallel-twin",2
+Norton,UK,Atlas,1200,105,90,6-speed manual,Shaft drive,2,Rs. 32.99 lakh,2022,Adventure,Adventure bike,"Liquid-cooled, parallel-twin",2
+Norton,UK,V4SV,1200,177,125,6-speed manual,Chain drive,2,Rs. 35.99 lakh,2023,Sporty,Superbike,"Liquid-cooled, V4",4
+Piaggio,Italy,Aprilia SR160,160,11.3,11.5,CVT,Automatic,2,Rs. 1.25 lakh,2023,Sporty,Scooter,"Air-cooled, single-cylinder",1
+Piaggio,Italy,Aprilia RS150,150,17.7,14.2,6-speed manual,Chain drive,2,Rs. 1.55 lakh,2023,Sporty,Sports bike,"Liquid-cooled, single-cylinder",1
+Piaggio,Italy,Aprilia Tuono 660,660,95,67,6-speed manual,Chain drive,2,Rs. 3.15 lakh,2022,Sporty,Naked bike,"Liquid-cooled, parallel-twin",2
+Piaggio,Italy,Vespa VX125,125,9.5,9.8,CVT,Automatic,2,Rs. 1.15 lakh,2023,Classic,Scooter,"Air-cooled, single-cylinder",1
+Piaggio,Italy,Vespa GTS300,300,23.8,26,CVT,Automatic,2,Rs. 2.15 lakh,2023,Classic,Scooter,"Liquid-cooled, single-cylinder",1
+Royal Enfield,India,Bullet 350,346,19.8,28 Nm,5-speed manual,Chain drive,2,Rs. 1.47 lakh,2023,Classic,Cruiser,"Air-cooled, single-cylinder",1
+Royal Enfield,India,Bullet 500,499,27.2,41 Nm,5-speed manual,Chain drive,2,Rs. 1.97 lakh,2023,Classic,Cruiser,"Air-cooled, single-cylinder",1
+Royal Enfield,India,Meteor 350,349,20.2 bhp@6100 rpm,27 Nm@4000 rpm,5-speed manual,Chain drive,2,Rs. 1.65 lakh,2022,Classic,Cruiser,"Air-cooled, single-cylinder",1
+Royal Enfield,India,Himalayan,411,24.5 bhp@6500 rpm,32 Nm@4250 rpm,5-speed manual,Chain drive,2,Rs. 2.20 lakh,2022,Adventure,Adventure bike,"Air-cooled, single-cylinder",1
+Royal Enfield,India,Interceptor 650,648,47.6 bhp@7250 rpm,52 Nm@5250 rpm,6-speed manual,Shaft drive,2,Rs. 2.79 lakh,2022,Classic,Cafe racer,"Air-cooled, parallel-twin",2
+Royal Enfield,India,Continental GT 650,648,47.6 bhp@7250 rpm,52 Nm@5250 rpm,6-speed manual,Shaft drive,2,Rs. 2.99 lakh,2022,Sporty,Cafe racer,"Air-cooled, parallel-twin",2
+Royal Enfield,India,Super Meteor 650,648,47 PS @ 7250 rpm,52.3 Nm @ 5650 rpm,6-speed manual,Chain drive,2,"INR 3,49,000 - 3,79,000",2022,Classy,Cruiser,Parallel twin,2
+Suzuki,Japan,Gixxer SF 250,249,26.5 PS @ 9700 rpm,22.6 Nm @ 7500 rpm,6-speed manual,Chain drive,2,₹1.69 lakh - ₹1.89 lakh,2022,Sporty,Naked bike,Single-cylinder,1
+Suzuki,Japan,Gixxer 250,249,26.5 PS @ 9000 rpm,22.6 Nm @ 7500 rpm,6-speed manual,Chain drive,2,₹1.39 lakh - ₹1.59 lakh,2022,Sporty,Street bike,Single-cylinder,1
+Suzuki,Japan,Intruder 150,155,14.8 PS @ 8000 rpm,14 Nm @ 6000 rpm,5-speed manual,Chain drive,2,₹1.15 lakh - ₹1.25 lakh,2022,Classic,Cruiser,Single-cylinder,1
+Suzuki,Japan,Access 125,124,8.7 PS @ 7000 rpm,10.2 Nm @ 5000 rpm,CVT,Automatic,2,"₹67,500",2022,Practical,Scooter,Single-cylinder,1
+Suzuki,Japan,Burgman Street 125,124,8.7 PS @ 7000 rpm,10.2 Nm @ 5000 rpm,CVT,Automatic,2,"₹78,300",2022,Practical,Scooter,Single-cylinder,1
+SYM,Taiwan,Joymax Z 300,300,32 hp,26 Nm,Automatic,CVT,2,"3,25,000",2023,Adventure,Maxi-Scooter,"Liquid-cooled, 4-stroke, single-cylinder",1
+SYM,Taiwan,Maxsym 400i,400,33 hp,34 Nm,Automatic,CVT,2,"4,50,000",2022,Sporty,Maxi-Scooter,"Liquid-cooled, 4-stroke, single-cylinder",1
+SYM,Taiwan,Joyride 125,125,10 hp,10 Nm,Automatic,CVT,2,"1,10,000",2022,Classy,Scooter,"Air-cooled, 4-stroke, single-cylinder",1
+SYM,Taiwan,Fiddle III 125,125,9 hp,9 Nm,Automatic,CVT,2,"95,000",2021,Classy,Scooter,"Air-cooled, 4-stroke, single-cylinder",1
+SYM,Taiwan,HD 200,200,17 hp,16 Nm,Manual,Chain,2,"1,50,000",2020,Classic,Naked Bike,"Air-cooled, 4-stroke, single-cylinder",1
+Triumph,United Kingdom,Rocket 3 R,"2,500",167 hp,163 lb-ft,6-speed manual,Shaft drive,2,"20,19,312",2023,"Classy, cruiser",Cruiser,3-cylinder,3
+Triumph,United Kingdom,Speed Triple 1200 RR,"1,160",177 hp,95 lb-ft,6-speed sequential,Chain drive,1,"17,95,000",2023,"Sporty, aggressive",Naked,3-cylinder,3
+Triumph,United Kingdom,Trident 660,660,89 hp,59 lb-ft,6-speed manual,Chain drive,2,"7,45,000",2022,"Modern, sporty",Naked,3-cylinder,2
+Triumph,United Kingdom,Tiger 900 GT Pro,888,105 hp,64 lb-ft,6-speed manual,Shaft drive,2,"14,99,000",2023,"Adventure, touring",Adventure,3-cylinder,1
+Triumph,United Kingdom,Tiger 850 Sport,888,85 hp,62 lb-ft,6-speed manual,Shaft drive,2,"11,95,000",2022,"Adventure, sporty",Adventure,3-cylinder,1
+Triumph,United Kingdom,Speed Twin 900,900,97 hp,85 lb-ft,6-speed manual,Chain drive,2,"8,49,000",2022,"Classic, stylish",Naked,2-cylinder,2
+Triumph,United Kingdom,Bonneville T100,900,65 hp,59 lb-ft,5-speed manual,Chain drive,2,"9,69,000",2022,"Classic, vintage",Cruiser,2-cylinder,2
+Triumph,United Kingdom,Bonneville T120,"1,200",79 hp,87 lb-ft,5-speed manual,Chain drive,2,"11,09,000",2022,"Classic, vintage",Cruiser,2-cylinder,2
+Vespa,Italy,Primavera,150,12.1 hp,12.2 lb-ft,CVT,Automatic,2,"1,32,000",2022,"Classic, stylish",Scooter,1-cylinder,1
+Vespa,Italy,Sprint,125,10 hp,8.8 lb-ft,CVT,Automatic,2,"1,15,000",2022,"Modern, sporty",Scooter,1-cylinder,1
+Vespa,Italy,GTS 300,300,23.8 hp,19.4 lb-ft,CVT,Automatic,2,"1,75,000",2022,"Sporty, aggressive",Scooter,1-cylinder,1
+Vespa,Italy,946,125,10.7 hp,9.2 lb-ft,CVT,Automatic,2,"1,65,000",2022,"Classic, vintage",Scooter,1-cylinder,1
+Vespa,Italy,Elettrica,70,4 kW,56 lb-ft,CVT,Electric,2,"1,10,000",2022,"Modern, stylish",Scooter,Electric,0
+Yamaha,Japan,R1,998,200 hp,112 lb-ft,6-speed manual,Chain drive,1,"20,00,000",2023,"Sporty, aggressive",Sportbike,4-cylinder,4
+Yamaha,Japan,MT-09,889,117 hp,69 lb-ft,6-speed manual,Chain drive,1,"8,50,000",2022,"Modern, sporty",Naked,3-cylinder,3
+Yamaha,Japan,R3,321,42 hp,29 lb-ft,6-speed manual,Chain drive,1,"5,50,000",2022,"Sporty, beginner-friendly",Sportbike,4-cylinder,4
+Yamaha,Japan,FZ-25,249,26 hp,18.6 lb-ft,5-speed manual,Chain drive,1,"3,50,000",2022,"Modern, stylish",Naked,1-cylinder,1
+Yamaha,Japan,XSR155,155,18 hp,14.7 lb-ft,5-speed manual,Chain drive,1,"2,00,000",2022,"Classic, vintage",Retro,1-cylinder,1
+Beta,Italy,RR 350 2-Stroke,350,40 hp,34 Nm,Six-speed sequential,Chain drive,1,"12,50,000",2023,Classy,Enduro,Two-stroke,Single
+Beta,Italy,RR 250 2-Stroke,250,35 hp,27 Nm,Six-speed sequential,Chain drive,1,"11,00,000",2023,Classy,Enduro,Two-stroke,Single
+Beta,Italy,RR 125 2-Stroke,125,27 hp,22 Nm,Six-speed sequential,Chain drive,1,"8,00,000",2023,Classy,Enduro,Two-stroke,Single
+Beta,Italy,RR 390 4-Stroke,390,45 hp,37 Nm,Six-speed sequential,Chain drive,1,"14,00,000",2023,Classy,Enduro,Four-stroke,Single
+Beta,Italy,RR 250 4-Stroke,250,38 hp,28 Nm,Six-speed sequential,Chain drive,1,"12,00,000",2023,Classy,Enduro,Four-stroke,Single
+Beta,Italy,RR 125 4-Stroke,125,24 hp,20 Nm,Six-speed sequential,Chain drive,1,"8,50,000",2023,Classy,Enduro,Four-stroke,Single
+Beta,Italy,Alp 200,200,25 hp,22 Nm,Five-speed constant mesh,Shaft drive,2,"10,50,000",2023,Adventure,Dual-sport,Four-stroke,Single
+Beta,Italy,Alp 125,125,20 hp,18 Nm,Five-speed constant mesh,Shaft drive,2,"8,00,000",2023,Adventure,Dual-sport,Four-stroke,Single
+GasGas,Spain,MC 250F,250,37 hp,26 Nm,Six-speed,Chain drive,1,"11,00,000",2023,Modern,Enduro,Four-stroke,Single
+GasGas,Spain,MC 350F,350,44 hp,32 Nm,Six-speed,Chain drive,1,"13,00,000",2023,Modern,Enduro,Four-stroke,Single
+GasGas,Spain,MC 450F,450,52 hp,42 Nm,Six-speed,Chain drive,1,"14,50,000",2023,Modern,Enduro,Four-stroke,Single
+GasGas,Spain,EC 250,250,35 hp,25 Nm,Six-speed,Chain drive,1,"10,50,000",2023,Modern,Motocross,Two-stroke,Single
+GasGas,Spain,EC 300,300,40 hp,30 Nm,Six-speed,Chain drive,1,"12,00,000",2023,Modern,Motocross,Two-stroke,Single
+GasGas,Spain,EC 250F,250,37 hp,26 Nm,Six-speed,Chain drive,1,"11,50,000",2023,Modern,Enduro,Two-stroke,Single
+GasGas,Spain,EC 300F,300,44 hp,32 Nm,Six-speed,Chain drive,1,"13,00,000",2023,Modern,Enduro,Two-stroke,Single
+GasGas,Spain,SM 700,693,74 hp,70 Nm,Six-speed,Chain drive,1,"14,50,000",2023,Modern,Supermoto,Single,
+Harley-Davidson,United States,LiveWire,1133,105 hp,116 Nm,Direct drive,Permanent magnet synchronous motor,1,"35,00,000",2021,Modern,Cruiser,Electric,Single
+Honda,Japan,CT125,124.9,10.2 hp,10.4 Nm,CVT,Shaft drive,1,"1,35,000",2022,Adventure,Trail,Single,One
+Honda,Japan,Super Cub,110,8.5 hp,9.5 Nm,CVT,Chain drive,1,"65,000",2023,Classic,Standard,Single,One
+Husqvarna,Sweden,Vitpilen 250,248.76,30.84,24,6-speed manual,Chain,1,"2,19,000",2023,Classy,Naked,Single-cylinder,1
+Husqvarna,Sweden,Svartpilen 250,248.76,30.84,24,6-speed manual,Chain,1,"2,19,000",2023,Adventure,Naked,Single-cylinder,1
+Husqvarna,Sweden,Vitpilen 401,373.2,43.5,37,6-speed manual,Chain,1,"2,80,000",2023,Classy,Naked,Single-cylinder,1
+Husqvarna,Sweden,Svartpilen 401,373.2,43.5,37,6-speed manual,Chain,1,"2,90,000",2023,Adventure,Naked,Single-cylinder,1
+Husqvarna,Sweden,FE 350,350,39.3,35,6-speed manual,Chain,1,"4,20,000",2023,Motocross,Enduro,Single-cylinder,1
+Husqvarna,Sweden,TE 300i,300,44.2,30,6-speed manual,Chain,1,"4,00,000",2023,Enduro,Enduro,Single-cylinder,2
+Husqvarna,Sweden,FE 501,501,51.5,48,6-speed manual,Chain,1,"5,50,000",2023,Motocross,Enduro,Single-cylinder,1
+Husqvarna,Sweden,TE 501i,501,51.5,48,6-speed manual,Chain,1,"5,30,000",2023,Enduro,Enduro,Single-cylinder,1
+KTM,Austria,1290 Super Duke R,"1,301",177,140,6-speed manual,Chain,1,"17,00,000",2023,Aggressive,Naked,V-twin,2
+Moto Morini,Italy,Seiemmezzo 6 ½,649,55.7 PS,54 Nm,6-speed manual,Chain,2,6.89 - 7.10 Lakh,2023,Classy,Naked,Parallel-twin,2
+Moto Morini,Italy,X-Cape,649,60.8 PS,54 Nm,6-speed manual,Shaft,2,7.20 - 7.50 Lakh,2023,Adventure,Adventure,Parallel-twin,2
+Suzuki,Japan,Hayabusa,1340,190 PS @ 9700 rpm,150 Nm @ 7000 rpm,6-speed manual,Chain,2,16.90 Lakh,2023,Classy,Sport,In-line-four,4
+Triumph,United Kingdom,Rocket 3,2458,167 PS @ 6000 rpm,221 Nm @ 4000 rpm,6-speed manual,Shaft,2,21.40 Lakh,2023,Classy,Cruiser,In-line-three,3
+Yamaha,Japan,MT-10,998,158 bhp,111 Nm,"Constant Mesh, 6-speed",Chain,1,14 lakhs (expected),2023,"Classy, aggressive",Naked streetfighter,"Liquid-cooled, 4-cylinder, DOHC",4
+Bajaj,India,Pulsar 125,124.9,12.7 bhp,11 Nm,4-speed constant mesh,Chain,1,"68,000",2023,"Modern, sporty",Street,"Air-cooled, 4-stroke, single-cylinder, DTS-i",1
+Bajaj,India,Pulsar 150,149.5,14.5 bhp,13 Nm,5-speed constant mesh,Chain,1,"85,000",2023,"Modern, sporty",Street,"Air-cooled, 4-stroke, single-cylinder, DTS-i",1
+Bajaj,India,Pulsar NS200,199.5,24.5 bhp,18.6 Nm,6-speed constant mesh,Chain,1,1.25 lakhs,2023,Sporty,Naked streetfighter,"Liquid-cooled, 4-stroke, single-cylinder, DTS-i",1
+Bajaj,India,Dominar 400,373.3,39.4 bhp,35 Nm,6-speed constant mesh,Chain,1,1.99 lakhs,2023,"Bold, aggressive",Street naked,"Liquid-cooled, 4-stroke, single-cylinder, DTS-i",1
+Bajaj,India,Avenger 220,220.9,19.05 bhp,17.35 Nm,5-speed constant mesh,Chain,2,1.13 lakhs,2023,"Classic, stylish",Cruiser,"Air-cooled, 4-stroke, single-cylinder, DTS-i",1
+Bajaj,India,Platina 110,110,8.6 bhp,9.8 Nm,4-speed constant mesh,Chain,1,"62,000",2023,"Simple, reliable",commuter,"Air-cooled, 4-stroke, single-cylinder, DTS-i",1
+Hero,India,Splendor Plus,100,9 bhp,8.9 Nm,4-speed constant mesh,Chain,1,"58,000",2023,"Simple, reliable",commuter,"Air-cooled, 4-stroke, single-cylinder, DTS-i",1
+Hero,India,Passion Pro,110,9.1 bhp,9.7 Nm,4-speed constant mesh,Chain,1,"64,000",2023,"Modern, sporty",commuter,"Air-cooled, 4-stroke, single-cylinder, DTS-i",1
+Hero,India,XPulse 200,199.6,18.4 bhp,17.1 Nm,5-speed constant mesh,Chain,1,1.15 lakhs,2023,Adventure,Enduro,"Air-cooled, 4-stroke, single-cylinder, BS6",1
+Hero,India,XPulse 200T,199.6,18.4 bhp,17.1 Nm,5-speed constant mesh,Chain,1,1.22 lakhs,2023,Adventure,Street,"Air-cooled, 4-stroke, single-cylinder, BS6",1
+Hero,India,Glamour 125,124.7,10.7 bhp,10.6 Nm,4-speed constant mesh,Chain,1,"72,000",2023,"Modern, stylish",commuter,"Air-cooled, 4-stroke, single-cylinder, DTS-i",1
+Hero,India,HF Deluxe,100,8.3 bhp,8.05 Nm,4-speed constant mesh,Chain,1,"51,000",2023,"Simple, reliable",commuter,"Air-cooled, 4-stroke, single-cylinder, DTS-i",1
+Jawa,India,Jawa,293,27.33 PS,27.02 Nm,Manual,Chain Drive,2,1.67 lakhs,2018,Classy,Cruiser,"Single-cylinder, liquid-cooled",1
+Jawa,India,Forty Two,293,27.33 PS,27.02 Nm,Manual,Chain Drive,2,1.67 lakhs,2018,Classy,Roadster,"Single-cylinder, liquid-cooled",1
+Jawa,India,Perak,334,30.64 PS,32.74 Nm,Manual,Chain Drive,2,2.15 lakhs,2020,Modern,Bobber,"Single-cylinder, liquid-cooled",1
+TVS,India,Apache RTR 200 4V,199.5,19.7 PS,16.8 Nm,5-speed,Chain Drive,2,"1,28,000",2018,Sporty,Naked,"Single-cylinder, air-cooled",1
+TVS,India,Apache RTR 200 4V FI,199.5,20.2 PS,18.1 Nm,5-speed,Chain Drive,2,"1,34,000",2020,Sporty,Naked,"Single-cylinder, fuel-injected, air-cooled",1
+TVS,India,Apache RTR 160 2V,159.7,15.3 PS,13.7 Nm,5-speed,Chain Drive,2,"99,500",2020,Sporty,Naked,"Single-cylinder, air-cooled",1
+TVS,India,Ntorq 125,124.8,9.4 PS,10.5 Nm,CVT,Automatic,2,"69,900",2019,Fun,Scooter,"Single-cylinder, air-cooled",1
+TVS,India,Jupiter,110,8.3 PS,9.4 Nm,CVT,Automatic,2,"62,275",2022,Practical,Scooter,"Single-cylinder, air-cooled",1
+TVS,India,Sport 125,124.8,9.7 PS,10.5 Nm,4-speed,Chain Drive,2,"78,750",2022,Classic,Standard,"Single-cylinder, air-cooled",1
+TVS,India,Radeon,124.8,8.7 PS,10 Nm,4-speed,Chain Drive,2,"72,750",2022,Budget,Standard,"Single-cylinder, air-cooled",1
+Triton Electric Bikes,China,Artemis,750,500,80 Nm,BAFANG M600 mid-drive motor,Shimano drivetrain,1,"2,50,000",2023,Modern,Mountain bike,Electric,1
+Apollo,China,Artemis,250,250,80 Nm,Bafang BBS02 mid-drive motor,Shimano drivetrain,1,"1,50,000",2022,Modern,Hybrid bike,Electric,1
+Hero Electric,India,Artemis,250,250,80 Nm,BLDC hub motor,Shimano drivetrain,1,"1,00,000",2021,Classic,Electric scooter,Electric,1
+Ampere,India,Artemis,250,250,80 Nm,BLDC hub motor,Shimano drivetrain,1,"80,000",2020,Classic,Electric scooter,Electric,1
+Peugeot,France,Django 125,125,"10.2 hp @ 9,000 rpm","10.8 Nm @ 7,000 rpm",Manual,Chain,2,"1,15,000",2023,Classic,Cruiser,Single-cylinder,1
+Peugeot,France,Django 300,300,"27 hp @ 8,750 rpm","29 Nm @ 6,500 rpm",Manual,Chain,2,"1,45,000",2023,Modern,Cruiser,Single-cylinder,1
+Peugeot,France,Metropolis 400,399,"36 hp @ 7,500 rpm","38 Nm @ 5,750 rpm",Automatic,CVT,3,"2,40,000",2023,Futuristic,Scooter,Single-cylinder,1
+Ontrack,India,Brutus Single Speed MTB 29,29,25,25 Nm,Single Speed,Front Suspension,1,"14,250",2023,Rugged,Mountain Bike,2,1
+Derbi,Spain,STX 150,150,12.5,12 Nm,5-speed manual,Chain drive,1,"100,000",2023,Sporty,Street Bike,4-stroke,1
+Vmoto Soco,China,TC,125,5.0 kW,110 Nm,Automatic,Electric,2,"1,40,000",2023,Retro-modern,Naked,Electric,Single
+Vmoto Soco,China,TC Max,125,5.0 kW,110 Nm,Automatic,Electric,2,"1,60,000",2023,Modern,Cafe racer,Electric,Single
+Vmoto Soco,China,TS Street Hunter,125,5.0 kW,110 Nm,Automatic,Electric,2,"1,50,000",2023,Modern,Streetfighter,Electric,Single
+Vmoto Soco,China,TC Wanderer,125,5.0 kW,110 Nm,Automatic,Electric,2,"1,30,000",2023,Retro-modern,Scrambler,Electric,Single
+Italjet,Italy,Dragster 200,200,20.07 PS,17 Nm,Automatic,Single-gear,2,8.29 lakh,2020,Futuristic,Naked,Liquid-cooled,Single
+Sherco,France,SE 125 Factory 2T,125cc,15hp,12Nm,Manual,Chain,1,"9,99,990",2023,Sharp,Enduro,2-stroke,Single
+Sherco,France,SE 250 Factory 2T,250cc,30hp,22Nm,Manual,Chain,1,"11,69,990",2023,Sharp,Enduro,2-stroke,Single
+Sherco,France,SE 300 Factory 2T,300cc,36hp,26Nm,Manual,Chain,1,"13,99,990",2023,Sharp,Enduro,2-stroke,Single
+Sherco,France,SEF 250i-S,250cc,31hp,24Nm,Automatic,Chain,1,"11,49,990",2023,Modern,Enduro,4-stroke,Single
+Sherco,France,SEF 300i-S,300cc,35hp,27Nm,Automatic,Chain,1,"13,79,990",2023,Modern,Enduro,4-stroke,Single
+Victory,United States,Cross Country,106,94 hp,110 ft-lb,Six-speed constant mesh,Belt drive,2,"15,00,000",2017,Modern,Cruiser,V-twin,Two
+Victory,United States,Judge,106,94 hp,110 ft-lb,Six-speed constant mesh,Belt drive,2,"14,50,000",2017,Modern,Cruiser,V-twin,Two
+Victory,United States,Hammer,1179,104 hp,100 ft-lb,Six-speed constant mesh,Belt drive,2,"17,00,000",2017,Modern,Cruiser,V-twin,Two
+Victory,United States,Octane,1179,104 hp,76 ft-lb,Six-speed constant mesh,Belt drive,2,"12,50,000",2017,Modern,Cruiser,V-twin,Two
+Victory,United States,Vision,1731,116 hp,120 ft-lb,Six-speed constant mesh,Belt drive,2,"22,00,000",2017,Modern,Touring,V-twin,Three
+Hanway,China,Furious 125,125,11 hp,10 Nm,Five-speed constant mesh,Chain drive,2,"1,00,000",2023,Modern,Street,Single,One
+Hanway,China,Black Cafe 125,125,11 hp,10 Nm,Five-speed constant mesh,Chain drive,2,"1,05,000",2023,Retro,Cafe racer,Single,One
+Hanway,China,Muscle 125,125,11 hp,10 Nm,Five-speed constant mesh,Chain drive,2,"1,10,000",2023,Modern,Cruiser,Single,One
+Hanway,China,Scrambler 125,125,11 hp,10 Nm,Five-speed constant mesh,Chain drive,2,"1,15,000",2023,Retro,Scrambler,Single,One
+Hanway,China,Raw 125,125,11 hp,10 Nm,Five-speed constant mesh,Chain drive,2,"1,20,000",2023,Modern,Naked,Single,One
+Keeway,Italy,V302C,298,29.9 PS,26.5 Nm,6 Speed Manual,Chain Drive,1,"3,89,000",2023,Cruiser,Retro,"Air-Cooled, Single-Cylinder",Single
+Keeway,Italy,Vieste 300,278.2,18.4 bhp,16 Nm,CVT Automatic,Automatic CVT,1,"3,24,992",2023,Modern,Sport,"Liquid-Cooled, Single-Cylinder",Single
+Keeway,Italy,K-Light 250V,249,18.4 bhp,17 Nm,6 Speed Manual,Chain Drive,1,"3,19,983",2023,Modern,Sports Naked,"Air-Cooled, Single-Cylinder",Single
+Keeway,Italy,K300 R,292.4,27.1 bhp,22 Nm,6 Speed Manual,Chain Drive,1,"2,65,053",2023,Modern,Sports,"Liquid-Cooled, Single-Cylinder",Single
+Keeway,Italy,Sixties 300i,278.2,18.4 bhp,16 Nm,CVT Automatic,Automatic CVT,1,"3,29,984",2023,Retro,Cafe Racer,"Liquid-Cooled, Single-Cylinder",Single
+Keeway,Italy,SR125,125,9.56 bhp,10.5 Nm,CVT Automatic,Automatic CVT,1,"1,19,999",2023,Modern,Commuter,"Air-Cooled, Single-Cylinder",Single
+Jawa,India,Jawa 42,293,27.33 PS,27.02 Nm,6-speed manual,Chain drive,2,"Rs. 1,67,000",2020,Retro,Cruiser,"Single-cylinder, liquid-cooled",1
+Jawa,India,Jawa 42 Bobber,293,27.33 PS,27.02 Nm,6-speed manual,Chain drive,2,"Rs. 1,84,000",2020,Retro,Bobber,"Single-cylinder, liquid-cooled",1
+Jawa,India,Jawa Perak,334,30.64 PS,32.74 Nm,6-speed manual,Chain drive,2,"Rs. 2,15,000",2021,Modern,Cruiser,"Single-cylinder, liquid-cooled",1
+Lexmoto,UK,LXR 125,125,13.6 bhp,11 Nm,6-speed manual,Chain drive,2,"Rs. 1,65,000",2022,Modern,Sports,"Single-cylinder, liquid-cooled",1
+Lexmoto,UK,ZSX 125,125,14 bhp,11.5 Nm,6-speed manual,Chain drive,2,"Rs. 1,75,000",2022,Modern,Naked,"Single-cylinder, liquid-cooled",1
+Lexmoto,UK,Milano 125,125,9.5 bhp,9 Nm,CVT automatic,Belt drive,2,"Rs. 1,35,000",2022,Retro,Scooter,"Single-cylinder, air-cooled",1
+Lexmoto,UK,Vendetta 250,250,21 bhp,18.6 Nm,6-speed manual,Chain drive,2,"Rs. 2,25,000",2022,Modern,Cruiser,"Single-cylinder, liquid-cooled",1
+Mash,China,Black Seven 125,125,11 kW,11 Nm,Manual,Chain,2,1.1 Lakhs,2023,Retro,Street,Single-cylinder,1
+Mash,China,Two Fifty,250,20 hp,18 Nm,Manual,Chain,2,1.5 Lakhs,2023,Retro,Scrambler,Single-cylinder,1
+Mash,China,Dirt Track 125,125,11 kW,11 Nm,Manual,Chain,2,1 Lakhs,2023,Retro,Dirt bike,Single-cylinder,1
+Mash,China,Five Hundred,500,35 hp,38 Nm,Manual,Chain,2,2.5 Lakhs,2023,Retro,Cafe racer,Single-cylinder,1
+Segway,China,Dirt eBike X260,500,5 kW,184.3 ft-lbs,Automatic,Electric,1,"3,50,000",2023,Modern,Dirt bike,Electric,1
+Arcfox,China,Alpha S,1903,67.7 kW,192.3 lb-ft,Automatic,"Dual-motor, all-wheel drive",2,"1,40,000",2023,Futuristic,Sportbike,Electric,2
+Hyosung,South Korea,Aquila GV650,647,68 hp,54 lb-ft,6-speed manual,"V-twin, liquid-cooled, 4-stroke",2,"6,50,000",2023,"Modern, aggressive",Cruiser,V-twin,2
+Fantic,Italy,Caballero 125,125,15 hp,11 Nm,6-speed manual,Chain drive,1,"1,50,000",2023,"Modern, aggressive",Enduro,Single-cylinder,1
+FB Mondial,Italy,HPS 300,249,23.11,22.5 Nm @ 6500 rpm,6-speed manual,Chain drive,1,3.37 lakhs (ex-showroom),2018,"Retro, classic",Scrambler,"Single cylinder, liquid-cooled, 4-stroke, 4-valves, SOHC",1
+FB Mondial,Italy,300 SuperSport,300,30.4,24 Nm @ 7500 rpm,6-speed manual,Chain drive,1,4.2 lakhs (ex-showroom),2020,"Modern, sporty",Cafe racer,"Single cylinder, liquid-cooled, 4-stroke, 4-valves, DOHC",1
+FB Mondial,Italy,125 SuperSport,125,14.8,11.5 Nm @ 7500 rpm,5-speed manual,Chain drive,1,2.2 lakhs (ex-showroom),2020,"Modern, sporty",Cafe racer,"Single cylinder, air-cooled, 4-stroke, 4-valves, SOHC",1
+Zero Motorcycles,USA,Zero S,7.2,74 hp,106 Nm,Automatic,Electric,1,"12,99,500",2023,Naked,Street,Electric,Single
+Zero Motorcycles,USA,Zero SR,11.4,92 hp,130 Nm,Automatic,Electric,1,"15,99,500",2023,Naked,Street,Electric,Single
+Zero Motorcycles,USA,Zero SR/F,14.4,110 hp,190 Nm,Automatic,Electric,1,"19,99,500",2023,Sport,Street,Electric,Single
+Zero Motorcycles,USA,Zero DS,11.4,92 hp,130 Nm,Automatic,Electric,1,"16,99,500",2023,Adventure,Dual-sport,Electric,Single
+Zero Motorcycles,USA,Zero FX,7.2,74 hp,106 Nm,Automatic,Electric,1,"13,99,500",2023,Dirt,Off-road,Electric,Single
+Larry vs Harry,Denmark,Bullitt,125,11.5 bhp,11 Nm,5-speed manual,Chain,1,"1,45,000",2023,Classic,Cargo,Single,1
+Aeon,Japan,Revo 300,292,27.6 hp,22.8 lb-ft,Manual,Chain,2,"1,05,000",2022,Modern,Sport,Single-cylinder,1
+Aeon,Japan,Revo 125,124.9,13.2 hp,9.4 lb-ft,Manual,Chain,2,"55,000",2022,Modern,Street,Single-cylinder,1
+Aeon,India,Neo 110,110,9 hp,8.5 lb-ft,Manual,Chain,2,"40,000",2022,Retro,Classic,Single-cylinder,1
+Aeon,India,Mio 110,110,8.5 hp,8.5 lb-ft,Automatic,CVT,2,"35,000",2022,Modern,Scooter,Single-cylinder,1
+Can-Am,Canada,Spyder RT,1330,115,115 lb-ft,6-speed manual,Front wheel drive,2,18.5 lakhs,2023,Modern,Cruiser,Rotax ACE,3
+Can-Am,Canada,Ryker,600,50,46 lb-ft,CVT,Front wheel drive,2,13.5 lakhs,2023,Sporty,Roadster,Rotax 600 ACE,3
+Can-Am,Canada,F3,990,97,69 lb-ft,6-speed manual,Front wheel drive,2,15 lakhs,2023,Sleek,Cruiser,Rotax 990 ACE,3
+Scomadi,Italy,TL125,124.6,9.39,8.3 Nm,CVT,Belt drive,2,"88,000",2023,Retro,Scooter,Single cylinder,1
+Scomadi,Italy,Sixty2,279.5,19.5,22 Nm,CVT,Belt drive,2,"1,99,000",2023,Retro,Cafe racer,Single cylinder,1
+Scomadi,Italy,TT125,124.6,9.39,8.3 Nm,CVT,Belt drive,2,"88,000",2023,Retro,Scrambler,Single cylinder,1
+Genuine Scooters,Taiwan,Buddy 50,49,3.3,3.5,Automatic,CVT,1,"45,000",2023,Retro,Standard,2-stroke,1
+Genuine Scooters,Taiwan,Buddy 125,125,9.5,10.2,Automatic,CVT,2,"60,000",2023,Modern,Standard,4-stroke,1
+Genuine Scooters,Taiwan,Buddy 170i,170,11.6,12.8,Automatic,CVT,2,"80,000",2023,Modern,Standard,4-stroke,1
+Genuine Scooters,Taiwan,Buddy KICK,125,10.5,11.5,Automatic,CVT,2,"70,000",2023,Modern,Standard,4-stroke,1
+Genuine Scooters,Taiwan,Hooligan 170i,170,14.5,15.5,Automatic,CVT,2,"90,000",2023,Retro,Standard,4-stroke,1
+Genuine Scooters,Taiwan,Roughhouse 50,50,3.5,3.8,Automatic,CVT,1,"35,000",2023,Retro,Standard,2-stroke,1
+Genuine Scooters,Taiwan,Roughhouse 50 SPORT,50,4.5,4.8,Automatic,CVT,1,"40,000",2023,Modern,Standard,2-stroke,1
+Genuine Scooters,Taiwan,Rattler 50,50,3.3,3.5,Automatic,CVT,1,"30,000",2023,Retro,Standard,2-stroke,1
+Genuine Scooters,Taiwan,Venture 50,50,4.5,4.8,Automatic,CVT,1,"45,000",2023,Modern,Standard,4-stroke,1
+UM Motorcycles,China,Renegade Commando,279.5,25.5,23,5-speed,Chain,2,"1,64,000",2023,Retro,Cruiser,"Single-cylinder, liquid-cooled, 4-stroke",1
+UM Motorcycles,China,Renegade Sport S,280,26.5,22.5,5-speed,Chain,2,"1,57,000",2023,Modern,Sport,"Single-cylinder, liquid-cooled, 4-stroke",1
+UM Motorcycles,China,Renegade Duty S,223,17.5,16.5,5-speed,Chain,2,"1,10,000",2023,Modern,Cruiser,"Single-cylinder, air-cooled, 4-stroke",1
+UM Motorcycles,China,Renegade Duty Ace,125,10,9.5,4-speed,Chain,2,"90,000",2023,Modern,Cruiser,"Single-cylinder, air-cooled, 4-stroke",1
+UM Motorcycles,China,Renegade Thor,374,35,-,6-speed,Chain,2,"4,90,000",2023,Modern,Cruiser,"V-twin, liquid-cooled, 4-stroke",2
+NIU,China,MQi GT,125,11.1,10.5 Nm,CVT,Automatic,2,"1,49,999",2022,Futuristic,Scooter,Electric,Single
+NIU,China,NQi GTS,125,9.4,11.8 Nm,CVT,Automatic,2,"1,59,999",2022,Sleek,Scooter,Electric,Single
+NIU,China,MQi Plus,125,9.4,11.8 Nm,CVT,Automatic,2,"1,29,999",2022,Stylish,Scooter,Electric,Single
+NIU,China,NQi Sport,125,9.4,11.8 Nm,CVT,Automatic,2,"1,44,999",2022,Sporty,Scooter,Electric,Single
+NIU,China,BQi-C3 Pro,Electric,500W,40 Nm,Pedal-assist and throttle,Rear wheel,1,"1,29,999",2023,Modern,Bicycle,Electric,Single
+Sinnis,UK,Apache 125,125,11.5,10.5 Nm,CVT,Automatic,2,"1,19,999",2023,Modern,Street Bike,Air-Cooled,Single
+Sinnis,UK,Meteor 125,125,11.5,10.5 Nm,CVT,Automatic,2,"1,29,999",2023,Classic,Cruiser,Air-Cooled,Single
+Sinnis,UK,City 125,125,9.5,9 Nm,CVT,Automatic,2,"99,999",2023,Urban,Scooter,Air-Cooled,Single
+Sinnis,UK,Terrain 125,125,11.5,10.5 Nm,CVT,Automatic,2,"1,39,999",2023,Adventure,Trail Bike,Air-Cooled,Single
+Sinnis,UK,SM-XE 125,125,15,12 Nm,6-Speed,Chain Drive,2,"1,49,999",2023,Motocross,Street Bike,Air-Cooled,Single
+SWM,Italy,Superdual T,600,54.38 PS @ 7500 rpm,53.50 Nm @ 5500 rpm,6-Speed,Chain Drive,2,6.8 Lakh,2023,Modern,Adventure,Liquid-Cooled,Single
+SWM,Italy,RS 650,650,55 PS @ 8500 rpm,55 Nm @ 7000 rpm,6-Speed,Chain Drive,2,8.5 Lakh,2023,Modern,Naked,Liquid-Cooled,Single
+SWM,Italy,Viale 650,650,55 PS @ 8500 rpm,55 Nm @ 7000 rpm,6-Speed,Chain Drive,2,7.8 Lakh,2023,Classic,Cruiser,Liquid-Cooled,Single
+SWM,Italy,RACER 125,125,11.5 PS @ 9000 rpm,10.5 Nm @ 7500 rpm,CVT,Automatic,2,1.2 Lakh,2023,Modern,Street Bike,Air-Cooled,Single
+SWM,Italy,GRAN TURISMO 125,125,11.5 PS @ 9000 rpm,10.5 Nm @ 7500 rpm,CVT,Automatic,2,1.3 Lakh,2023,Classic,Cruiser,Air-Cooled,Single
+Super Soco,China,TC,125,11.5 kW (15.6 hp),11.5 Nm (8.5 lb-ft),CVT,Automatic,2,1.4 Lakh,2023,Modern,Scooter,Electric,Single
+Super Soco,China,TC Max,125,5.0 kW (7.0 hp),11.5 Nm (8.5 lb-ft),CVT,Automatic,2,1.5 Lakh,2023,Modern,Street Bike,Electric,Single
+Super Soco,China,TS Street Hunter,125,3.0 kW (4.0 hp),15 Nm (11 lb-ft),CVT,Automatic,2,1.8 Lakh,2023,Modern,Street Bike,Electric,Single
+Super Soco,China,CUx,125,3.5 kW (4.7 hp),14 Nm (10.3 lb-ft),CVT,Automatic,2,1.3 Lakh,2023,Retro,Scooter,Electric,Single
+Super Soco,China,CPx,125,3.5 kW (4.7 hp),14 Nm (10.3 lb-ft),CVT,Automatic,2,1.4 Lakh,2023,Modern,Scooter,Electric,Single
+Royal Alloy,UK,Interceptor 650,649,"47.6 PS @ 7,250 rpm","52 Nm @ 5,250 rpm",6-speed manual,Chain drive,2,4.5 Lakh,2023,Classic,Cruiser,Air-Cooled,Parallel-Twin
+Royal Alloy,UK,Himalayan,411,"24.5 PS @ 6,500 rpm","32 Nm @ 4,000 rpm",5-speed manual,Chain drive,2,2.7 Lakh,2023,Adventure,Trail Bike,Air-Cooled,Single
+Royal Alloy,UK,Meteor 350,349,"20.2 PS @ 6,000 rpm","27 Nm @ 4,000 rpm",5-speed manual,Chain drive,2,2.1 Lakh,2023,Classic,Cruiser,Air-Cooled,Single
+Royal Alloy,UK,CT 125,125,"10.5 PS @ 9,000 rpm","10.5 Nm @ 7,500 rpm",CVT,Automatic,2,1.1 Lakh,2023,Retro,Scooter,Air-Cooled,Single
+Royal Alloy,UK,Kent 125,125,"10.5 PS @ 9,000 rpm","10.5 Nm @ 7,500 rpm",CVT,Automatic,2,1 Lakh,2023,Modern,Scooter,Air-Cooled,Single
+Benelli,Italy,Imperiale 400,374 cc,21 hp @ 5500 rpm,24.5 Nm @ 3500 rpm,5-speed manual,Chain drive,2,"Rs. 2,34,914",2020,Classic,Cruiser,"Single-cylinder, air-cooled",Single
+Benelli,Italy,Leoncino 250,249.2 cc,24.5 hp @ 9000 rpm,21.5 Nm @ 7000 rpm,6-speed manual,Chain drive,2,"Rs. 2,59,900",2020,Modern,Streetfighter,"Single-cylinder, liquid-cooled",Single
+Benelli,Italy,TRK 251,250.9 cc,25 hp @ 9000 rpm,21 Nm @ 7500 rpm,6-speed manual,Chain drive,2,"Rs. 2,99,000",2020,Adventure,Adventure touring,"Single-cylinder, liquid-cooled",Single
+Benelli,Italy,TRK 502,500 cc,47.6 hp @ 8500 rpm,46 Nm @ 5000 rpm,6-speed manual,Chain drive,2,"Rs. 4,69,000",2017,Adventure,Adventure touring,"Parallel-twin, liquid-cooled",Two
+Benelli,Italy,TNT 600i,600 cc,"85 hp @ 11,000 rpm",54 Nm @ 8000 rpm,6-speed manual,Chain drive,2,"Rs. 6,19,000",2018,Sport,Supersport,"Parallel-twin, liquid-cooled",Two
+Benelli,Italy,Leoncino 500,500 cc,47.5 hp @ 8500 rpm,46 Nm @ 5000 rpm,6-speed manual,Chain drive,2,"Rs. 5,60,000",2019,Modern,Streetfighter,"Parallel-twin, liquid-cooled",Two
+Benelli,Italy,502 C,500 cc,47.5 hp @ 8500 rpm,46 Nm @ 5000 rpm,6-speed manual,Chain drive,2,"Rs. 5,85,000",2020,Retro,Cruiser,"Parallel-twin, liquid-cooled",Two
+Benelli,Italy,TNT 600RR,600 cc,"118 hp @ 11,500 rpm","66 Nm @ 10,500 rpm",6-speed manual,Chain drive,2,"Rs. 7,50,000",2022,Sport,Supersport,"Parallel-twin, liquid-cooled",Two
+AJS,United Kingdom,Cadwell 125,125,11,10.5 Nm,Manual,Chain,2,"1,499,000",2023,Classic,Roadster,Single,1
+AJS,United Kingdom,Tempest Scrambler 125,125,11,10.5 Nm,Manual,Chain,2,"1,549,000",2023,Modern,Scrambler,Single,1
+AJS,United Kingdom,Tempest Roadster 125,125,11,10.5 Nm,Manual,Chain,2,"1,499,000",2023,Modern,Roadster,Single,1
+Mutt Motorcycles,United Kingdom,Akita 125,125,"11.83 BHP @ 9,000 RPM","10 Nm @ 7,000 RPM",5-speed,Chain Drive,1,3.59 lakhs (ex-showroom),2022,Retro,Cafe Racer,"Single Cylinder, 4-Stroke, Air-cooled",Single
+Zontes,China,350R,348,38.2 bhp,32.8 Nm,6-speed manual,Chain drive,2,"3,25,000",2022,Sporty,Naked,"Single-cylinder, liquid-cooled",1
+Zontes,China,350T,348,38.2 bhp,32.8 Nm,6-speed manual,Chain drive,2,"3,47,000",2022,Modern,Adventure tourer,"Single-cylinder, liquid-cooled",1
+Zontes,China,350X,348,38.2 bhp,32.8 Nm,6-speed manual,Chain drive,2,"3,57,000",2022,Rugged,Street scrambler,"Single-cylinder, liquid-cooled",1
+Zontes,China,GK350,348,38.2 bhp,32.8 Nm,6-speed manual,Chain drive,2,"3,67,000",2022,Classic,Cafe racer,"Single-cylinder, liquid-cooled",1
+Mutt Motorcycles,UK,Akita,125,11.83 bhp,10 Nm,5-speed manual,Chain,1,Rs. 3.59 lakh,2022,Retro-inspired,Cafe racer,"Single-cylinder, air-cooled",1
+Mutt Motorcycles,UK,FSR,250,18.5 bhp,17 Nm,5-speed manual,Chain,1,Rs. 4.99 lakh,2022,Retro-inspired,Scrambler,"Single-cylinder, air-cooled",1
+Mutt Motorcycles,UK,GT-SR,250,18.5 bhp,17 Nm,5-speed manual,Chain,1,Rs. 5.49 lakh,2022,Retro-inspired,Cafe racer,"Single-cylinder, air-cooled",1
+Mutt Motorcycles,UK,GT-SS,250,20 bhp,18 Nm,5-speed manual,Chain,1,Rs. 5.99 lakh,2022,Retro-inspired,Bobber,"Single-cylinder, air-cooled",1
+Mutt Motorcycles,UK,Hilts,250,18.5 bhp,17 Nm,5-speed manual,Chain,1,Rs. 5.29 lakh,2022,Retro-inspired,Tracker,"Single-cylinder, air-cooled",1
+Mutt Motorcycles,UK,Mastiff,250,20 bhp,18 Nm,5-speed manual,Chain,1,Rs. 6.49 lakh,2022,Retro-inspired,Cruiser,"Single-cylinder, air-cooled",1
+Mutt Motorcycles,UK,Mongrel,250,20 bhp,18 Nm,5-speed manual,Chain,1,Rs. 5.99 lakh,2022,Retro-inspired,Scrambler,"Single-cylinder, air-cooled",1
+Mutt Motorcycles,UK,Razorback,250,20 bhp,18 Nm,5-speed manual,Chain,1,Rs. 6.99 lakh,2022,Retro-inspired,Bobber,"Single-cylinder, air-cooled",1
+Mutt Motorcycles,UK,RS-13,250,20 bhp,18 Nm,5-speed manual,Chain,1,Rs. 6.79 lakh,2022,Retro-inspired,Cafe racer,"Single-cylinder, air-cooled",1
+Mutt Motorcycles,UK,Sabbath,250,20 bhp,18 Nm,5-speed manual,Chain,1,Rs. 7.49 lakh,2022,Retro-inspired,Cruiser,"Single-cylinder, air-cooled",1
+Energica Motor Company,Italy,Ego,110 kW,163 hp,195 lb-ft,Automatic,Electric,1,INR 21.15 lakhs,2014,Futuristic,Naked,Electric,1
+Energica Motor Company,Italy,Eva Ribelle,110 kW,163 hp,195 lb-ft,Automatic,Electric,2,INR 22.5 lakhs,2019,Modern,Roadster,Electric,1
+Energica Motor Company,Italy,EsseEsse9,110 kW,163 hp,195 lb-ft,Automatic,Electric,2,INR 25 lakhs,2019,Retro,Cruiser,Electric,1
+Energica Motor Company,Italy,EGO+,126 kW,171 hp,222 lb-ft,Automatic,Electric,1,INR 23.75 lakhs,2022,Futuristic,Naked,Electric,1
+Energica Motor Company,Italy,Eva Ribelle RS,126 kW,171 hp,222 lb-ft,Automatic,Electric,2,INR 25.25 lakhs,2022,Modern,Roadster,Electric,1
+Moto Morini,Italy,X-Cape,649,60.8 PS,62 Nm,6-speed manual,Parallel twin,2,"7,20,000",2023,Modern,Adventure touring,"Liquid-cooled, DOHC",2
+Moto Morini,Italy,Seiemmezzo 6 ½,649,55.7 PS,58 Nm,6-speed manual,Parallel twin,2,"6,89,000",2023,Retro,Naked,"Liquid-cooled, DOHC",2
