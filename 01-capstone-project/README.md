@@ -1,0 +1,18 @@
+capstone_project/
+    images/
+        car_price_prediction.jpg
+    pipeline/
+        pipeline.joblib
+    Dockerfile
+    Pipfile
+    Pipfile.lock
+    README.md
+    brand_models.json
+    capstone_project.ipynb
+    ford_car_price_prediction.csv
+    columns_attributes.json
+    pipeline.joblib
+    predict.py
+    requirements.txt
+    test.py
+    train.py
