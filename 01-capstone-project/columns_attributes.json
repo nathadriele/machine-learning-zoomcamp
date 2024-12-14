@@ -1,45 +1,77 @@
 {
-    "model": [
+  "model": [
       "category",
-      ["Fiesta", "Focus", "Puma", "Kuga", "EcoSport"]
-    ],
-    "year": [
+      [
+          "B-MAX",
+          "C-MAX",
+          "EcoSport",
+          "Edge",
+          "Fiesta",
+          "Focus",
+          "Galaxy",
+          "Grand C-MAX",
+          "Grand Tourneo Connect",
+          "KA",
+          "Ka+",
+          "Kuga",
+          "Mondeo",
+          "Mustang",
+          "Puma",
+          "S-MAX",
+          "Tourneo Connect",
+          "Tourneo Custom"
+      ]
+  ],
+  "year": [
       "numeric",
       "int64",
-      2000,
-      2023
-    ],
-    "engineSize": [
+      2013,
+      2020
+  ],
+  "price": [
+      "numeric",
+      "int64",
+      3691,
+      42489
+  ],
+  "transmission": [
+      "category",
+      [
+          "Manual",
+          "Automatic",
+          "Semi-Auto"
+      ]
+  ],
+  "mileage": [
+      "numeric",
+      "int64",
+      5,
+      82616
+  ],
+  "fueltype": [
+      "category",
+      [
+          "Petrol",
+          "Diesel",
+          "Hybrid"
+      ]
+  ],
+  "tax": [
+      "numeric",
+      "int64",
+      0,
+      570
+  ],
+  "mpg": [
+      "numeric",
+      "float64",
+      20.9,
+      88.3
+  ],
+  "enginesize": [
       "numeric",
       "float64",
       1.0,
-      3.0
-    ],
-    "fuelType": [
-      "category",
-      ["Petrol", "Diesel", "Hybrid", "Electric"]
-    ],
-    "transmission": [
-      "category",
-      ["Manual", "Automatic"]
-    ],
-    "mileage": [
-      "numeric",
-      "int64",
-      0,
-      300000
-    ],
-    "tax": [
-      "numeric",
-      "int64",
-      0,
-      600
-    ],
-    "mpg": [
-      "numeric",
-      "float64",
-      0.0,
-      100.0
-    ]
-  }
-  
+      5.0
+  ]
+}
