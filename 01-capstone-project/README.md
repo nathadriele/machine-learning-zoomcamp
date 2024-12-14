@@ -9,7 +9,7 @@ This project predicts the price of Ford cars based on features such as model, ye
 - Model testing: `python test.py`
 - Application via Streamlit: `streamlit run predict.py`
 
-### Como Executar
+### How to Runs
 1. Install dependencies: `pip install -r requirements.txt` or use Pipenv: `pipenv install --deploy --system`.
 2. Run training: `python train.py`
 3. Run testing: `python test.py`
