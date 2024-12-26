@@ -1,77 +1,67 @@
 {
-  "model": [
-      "category",
-      [
-          "B-MAX",
-          "C-MAX",
-          "EcoSport",
-          "Edge",
-          "Fiesta",
-          "Focus",
-          "Galaxy",
-          "Grand C-MAX",
-          "Grand Tourneo Connect",
-          "KA",
-          "Ka+",
-          "Kuga",
-          "Mondeo",
-          "Mustang",
-          "Puma",
-          "S-MAX",
-          "Tourneo Connect",
-          "Tourneo Custom"
-      ]
-  ],
-  "year": [
-      "numeric",
-      "int64",
-      2013,
-      2020
-  ],
-  "price": [
-      "numeric",
-      "int64",
-      3691,
-      42489
-  ],
-  "transmission": [
-      "category",
-      [
-          "Manual",
-          "Automatic",
-          "Semi-Auto"
-      ]
-  ],
-  "mileage": [
-      "numeric",
-      "int64",
-      5,
-      82616
-  ],
-  "fueltype": [
-      "category",
-      [
-          "Petrol",
-          "Diesel",
-          "Hybrid"
-      ]
-  ],
-  "tax": [
-      "numeric",
-      "int64",
-      0,
-      570
-  ],
-  "mpg": [
-      "numeric",
-      "float64",
-      20.9,
-      88.3
-  ],
-  "enginesize": [
-      "numeric",
-      "float64",
-      1.0,
-      5.0
-  ]
+    "model": [
+        "category",
+        [
+            " Focus",
+            " Fiesta",
+            " EcoSport",
+            " C-MAX",
+            " Ka+",
+            " Grand C-MAX",
+            " Kuga",
+            " Tourneo Custom",
+            " B-MAX",
+            " Mondeo",
+            " KA",
+            " Puma",
+            " Tourneo Connect",
+            " Grand Tourneo Connect",
+            " Galaxy"
+        ]
+    ],
+    "year": [
+        "numeric",
+        "int64",
+        2013,
+        2020
+    ],
+    "transmission": [
+        "category",
+        [
+            "Manual",
+            "Semi-Auto",
+            "Automatic"
+        ]
+    ],
+    "mileage": [
+        "numeric",
+        "int64",
+        5,
+        56000
+    ],
+    "fuelType": [
+        "category",
+        [
+            "Petrol",
+            "Diesel"
+        ]
+    ],
+    "tax": [
+        "numeric",
+        "int64",
+        0,
+        240
+    ],
+    "mpg": [
+        "numeric",
+        "float64",
+        37.2,
+        78.5
+    ],
+    "engineSize": [
+        "numeric",
+        "float64",
+        1.0,
+        2.0
+    ]
 }
