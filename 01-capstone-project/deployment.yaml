@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ford-price-deployment
+  labels:
+    app: ford-price
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ford-price
+  template:
+    metadata:
+      labels:
+        app: ford-price
+    spec:
+      containers:
+      - name: ford-price-container
+        image: user/ford-model:latest
+        ports:
+        - containerPort: 5000
+        # resources:
+        #   requests:
+        #     cpu: "250m"
+        #     memory: "256Mi"
+        #   limits:
+        #     cpu: "1"
+        #     memory: "512Mi"
