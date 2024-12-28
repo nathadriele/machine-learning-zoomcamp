@@ -20,7 +20,7 @@ Offer a scalable, reproducible solution via EDA, model training, hyperparameter 
 - [2. Requirements](#requirements)
 - [3. Installation](#installation)
 - [4. Exploratory Data Analysis (EDA)](#exploratory)
-- [5. Data Preparation](#data preparation)
+- [5. Data Preparation](#data)
 - [6. Model Training and Evaluation](#model)
    - [6.1 Regression Models](#regression)
    - [6.2 Classification Models](#classification)
