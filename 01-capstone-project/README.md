@@ -6,11 +6,25 @@
 
 Determining the right selling price is vital for used car sellers—be it dealerships or individual owners. Pricing too low leads to lost profits, while pricing too high deters potential buyers. This project uses Machine Learning to predict used Ford car prices based on attributes like year, mileage, fuelType, and more. The project also explores a binary classification approach (e.g., “Is the price above/below a certain threshold?”) to show additional metrics and insights.
 
-**Key goals:**
+Ford Car Price Prediction leverages Machine Learning techniques to accurately predict used Ford car prices based on various attributes. The objective is to:
 
-Prevent underpricing and overpricing.
-Provide data-driven valuations for Ford vehicles.
-Offer a scalable, reproducible solution via EDA, model training, hyperparameter tuning, and a Flask (Docker/Kubernetes) deployment.
+- Prevent underpricing, leading to profit losses.
+- Avoid overpricing, leading to buyer deterrence.
+- Foster confidence in fair-market deals by providing data-driven valuations.
+- Through data exploration, modeling, and a Flask API deployment, this project delivers a scalable solution for accurate used-car price predictions.
+
+### Objectives
+
+1. Data Preparation and Cleaning
+- Remove outliers, handle missing values, ensure consistent data types.
+2. Feature Engineering
+- Categorize or transform attributes (e.g., year buckets).
+3. Model Training
+- Test multiple regression algorithms (Linear, Ridge, Lasso, XGBoost) for price.
+4. Model Evaluation
+- Use RMSE, R² (for regression) and potentially Precision, Recall, F1 (for classification).
+5. Deployment
+- Provide a production-ready model via Flask (Docker/Kubernetes).
 
 ### Table of Contents
 
@@ -35,8 +49,22 @@ Offer a scalable, reproducible solution via EDA, model training, hyperparameter 
 - [11. Conclusion](#conclusion)
 - [12. Contribution](#contribution)
 
+### Dataset
 
+![image](https://github.com/user-attachments/assets/b2174753-4c56-4096-b1e5-b90b39b0a9e9)
 
+File: ford_car_price_prediction.csv
+
+- Columns (9 total):
+   - model (Fiesta, Focus, Kuga, etc.)
+   - year (range 2013–2020)
+   - price (the regression target)
+   - transmission (Manual, Automatic, Semi-Auto, etc.)
+   - mileage (distance driven)
+   - fuelType (Petrol, Diesel, …)
+   - tax (annual road tax in £)
+   - mpg (miles per gallon)
+   - engineSize (liters)
 
 
 
