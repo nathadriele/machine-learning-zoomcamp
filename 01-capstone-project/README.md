@@ -1,6 +1,6 @@
 ## Ford Car Price Prediction
 
-![cars](https://github.com/user-attachments/assets/55a824a8-7dfd-4b88-8823-b12a75ed9f18)
+![image](https://github.com/user-attachments/assets/8afdf9f6-d86e-4040-92bf-ce42fc0233d3)
 
 ### Problem Description
 
@@ -17,23 +17,23 @@ Offer a scalable, reproducible solution via EDA, model training, hyperparameter 
 - [1. Dataset](#dataset)
    - [1.1 Description](#description)
    - [1.2 Sources](#sources)
-- [2. Requirements]
-- [3. Installation]
-- [4. Exploratory Data Analysis (EDA)]
-- [5. Data Preparation]
-- [6. Model Training and Evaluation]
-   - [6.1 Regression Models]
-   - [6.2 Classification Models]
-   - [6.3 Evaluation Metrics]
-   - [6.4 Hyperparameter Tuning]
-- [7. Save and Load the Model]
-- [8. Model Deployment]
-   - [8.1 Flask Web Service]
-   - [8.2 Dockerization and Kubernetes]
-- [9. Testing]
-- [10. API Usage (Example)]
-- [11. Conclusion]
-- 12. [Contribution]
+- [2. Requirements](#requirements)
+- [3. Installation](#installation)
+- [4. Exploratory Data Analysis (EDA)](#exploratory)
+- [5. Data Preparation](#data preparation)
+- [6. Model Training and Evaluation](#model)
+   - [6.1 Regression Models](#regression)
+   - [6.2 Classification Models](#classification)
+   - [6.3 Evaluation Metrics](#evaluation)
+   - [6.4 Hyperparameter Tuning](#hyperparameter)
+- [7. Save and Load the Model](#save)
+- [8. Model Deployment](#deployment)
+   - [8.1 Flask Web Service](#flask)
+   - [8.2 Dockerization and Kubernetes](#dockerization)
+- [9. Testing](#testing)
+- [10. API Usage (Example)](#api)
+- [11. Conclusion](#conclusion)
+- [12. Contribution](#contribution)
 
 
 
