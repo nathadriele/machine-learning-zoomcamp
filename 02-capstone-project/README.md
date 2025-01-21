@@ -68,4 +68,28 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+4. Download the Dataset:
 
+https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma/data?select=rideshare_kaggle.csv
+
+### Usage
+
+1. Navigate to the Project Directory:
+
+```
+cd uber-price-prediction
+```
+
+2. Open Jupyter Notebook:
+
+```
+jupyter notebook
+```
+
+3. Run the Notebook:
+
+- Open model_training.ipynb.
+- Execute all cells sequentially to perform data preprocessing, feature selection, model training, hyperparameter tuning, and model evaluation.
+- The trained model will be saved as random_forest_uber_price_model.joblib in the project directory.
+
+### Model Deployment via API
