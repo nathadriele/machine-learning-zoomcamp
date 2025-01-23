@@ -125,13 +125,13 @@ Run the following commands to test the model locally:
 
 1. Local Testing
 
-# Install dependencies
+#### Install dependencies
 pip install -r requirements.txt
 
-# Train the model
+####  Train the model
 python train.py
 
-# Start the API
+####  Start the API
 python predict.py
 
 2. API Usage
