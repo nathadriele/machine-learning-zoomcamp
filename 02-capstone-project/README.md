@@ -1,10 +1,10 @@
-## Uber Ride Price Prediction
+## Uber and Lyft Ride Price Prediction
 
 ![image](https://github.com/user-attachments/assets/eae7e5ad-f20d-41b5-a53d-c5eb313f5928)
 
 ### Overview
 
-The Uber Ride Price Prediction project aims to develop a machine learning model capable of accurately predicting the price of Uber rides. By utilizing historical ride data and advanced regression techniques, the project seeks to provide insights that can optimize costs for both passengers and drivers, ultimately enhancing the efficiency of ride-hailing services.
+The Uber and Lyft Ride Price Prediction project aims to develop a machine learning model capable of accurately predicting the price of Uber rides. By utilizing historical ride data and advanced regression techniques, the project seeks to provide insights that can optimize costs for both passengers and drivers, ultimately enhancing the efficiency of ride-hailing services.
 
 ### Problem Description
 
@@ -19,6 +19,8 @@ The cost of Uber rides can vary based on numerous factors, including distance, t
 Develop a robust machine learning model that predicts the price of an Uber ride based on input features such as distance, time of day, weather conditions, and more. This involves preprocessing data, conducting exploratory data analysis (EDA), feature engineering, model training, and deployment.
 
 ### Dataset
+
+![image](https://github.com/user-attachments/assets/a0406514-9f22-4418-a13f-54be80248fdd)
 
 The dataset used for this project was sourced from Kaggle’s rideshare dataset. Key attributes include:
 
