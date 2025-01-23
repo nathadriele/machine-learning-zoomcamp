@@ -45,10 +45,18 @@ EDA provided key insights into the dataset, which were critical for feature sele
 - Temporal Trends: Observed price fluctuations based on the time of day.
 - Geospatial Patterns: Visualized ride distribution using heatmaps.
 
+**Example:**
+
+![image](https://github.com/user-attachments/assets/59f3c5fd-1a03-46cb-ab39-e75dbbe853a6)
+
+
 ### Visualizations
 
+![image](https://github.com/user-attachments/assets/29586746-84ee-41ad-96d1-aac373180559)
 
+![image](https://github.com/user-attachments/assets/d7ff4680-0de7-4b7c-9723-ed8b32c00956)
 
+![image](https://github.com/user-attachments/assets/d9c629b7-8557-4966-810f-e1376a80a564)
 
 ### Model Development
 
@@ -109,29 +117,12 @@ python predict.py
 
 Send a POST request to the /predict endpoint with a JSON payload:
 
-```
-{
-  "distance": 3.5,
-  "surge_multiplier": 1.2,
-  "latitude": 42.36,
-  "longitude": -71.06,
-  "temperature": 40,
-  "humidity": 0.85,
-  "source": "Boston University",
-  "destination": "North Station",
-  "cab_type": "UberX",
-  "hour": 14,
-  "day": 5
-}
-```
+![image](https://github.com/user-attachments/assets/2b561ca7-6d21-422f-8177-7a412341f4b5)
 
 **Response:**
 
-```
-{
-  "predicted_price": 12.34
-}
-```
+![image](https://github.com/user-attachments/assets/01e1c756-d6f1-4080-a0d0-5015c7ba8765)
+
 
 ### CI/CD Pipeline
 
