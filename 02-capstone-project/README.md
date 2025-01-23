@@ -1,95 +1,159 @@
 ## Uber Ride Price Prediction
 
-### Table of Contents
-- Overview
-- Features
-- Technologies Used
-- Installation
-- Usage
-   - Data Preprocessing and Model Training
-   - Model Deployment via API
-- Project Structure
-- Data Description
-- Model Evaluation
-- Contributing
-- License
-- Contact
+![image](https://github.com/user-attachments/assets/eae7e5ad-f20d-41b5-a53d-c5eb313f5928)
 
 ### Overview
 
-The Uber Ride Price Prediction project aims to develop a machine learning model that accurately predicts the price of Uber rides based on various features such as ride location, time, weather conditions, and ride specifics. This project encompasses data preprocessing, feature engineering, model training, hyperparameter tuning, and deployment through a RESTful API.
+The Uber Ride Price Prediction project aims to develop a machine learning model capable of accurately predicting the price of Uber rides. By utilizing historical ride data and advanced regression techniques, the project seeks to provide insights that can optimize costs for both passengers and drivers, ultimately enhancing the efficiency of ride-hailing services.
 
-### Features
+### Problem Description
 
-- **Data Cleaning & Preprocessing:** Handling missing values, encoding categorical variables, and scaling numerical features.
-- **Feature Selection:** Utilizing Recursive Feature Elimination (RFE) to identify the most impactful features.
-- **Model Training & Evaluation:** Training multiple regression models and evaluating their performance using metrics like RMSE, MAE, and R².
-- **Hyperparameter Tuning:** Optimizing model performance using GridSearchCV.
-- **Model Deployment:** Providing a RESTful API for real-time price predictions using Flask.
-- **Pipeline Automation:** Implementing a structured pipeline to ensure consistent data transformations and model training.
+The cost of Uber rides can vary based on numerous factors, including distance, time of day, weather conditions, and surge pricing. Accurately forecasting ride prices is critical for:
 
-### Technologies Used
+- Enabling passengers to better plan their transportation expenses.
+- Helping drivers optimize earnings by identifying high-demand scenarios.
+- Improving Uber’s dynamic pricing mechanisms.
 
-- Programming Language: Python 3.x
-- Libraries:
-   - Data Manipulation: pandas, numpy
-   - Machine Learning: scikit-learn, xgboost
-   - Model Serialization: joblib
-   - API Deployment: Flask
-- Tools:
-   - Development Environment: Jupyter Notebook, VS Code
-   - Version Control: Git & GitHub
+### Objective
 
-### Installation
+The primary objective is to build a predictive model using machine learning techniques that can estimate the price of a ride based on relevant input features. The pipeline includes exploratory data analysis (EDA), feature engineering, hyperparameter tuning, and model evaluation to ensure the solution’s robustness and accuracy.
 
-#### Prerequisites
+### Dataset
 
-- Python 3.7 or higher
-- Git
+The dataset used for this project was sourced from Kaggle’s rideshare dataset. Key attributes include:
 
-### Steps
+- Ride Information: Source, destination, cab type, distance.
+- Time Information: Hour, day, timestamp.
+- Weather Data: Temperature, humidity, visibility, wind speed.
+- Pricing Details: Price and surge multiplier.
 
-1. Clone the Repository:
+### Dataset Preprocessing
 
-```
-git clone https://github.com/nathadriele/uber-price-prediction.git
-cd uber-price-prediction
-```
+1. Removed irrelevant or highly correlated columns.
+2. Imputed missing values for key features.
+3. Normalized numerical columns and one-hot encoded categorical features.
+4. Extracted temporal and interaction features to enrich the dataset.
 
-2. Create a Virtual Environment:
+### Project Workflow
 
-```python3 -m venv venv
-source venv/bin/activate
-```
+#### 1. Exploratory Data Analysis (EDA)
+EDA was conducted to:
+- Identify missing values.
+- Understand the distribution of key features.
+- Examine relationships between features and the target variable (‘price’).
 
-3. Install Dependencies:
+Key findings:
 
-```
+- Distance and surge multiplier are strongly correlated with ride prices.
+- Outliers in pricing data were identified and handled.
+
+#### 2. Feature Engineering
+
+New features were generated to enhance the model’s performance:
+
+- Temporal Features: Day of the week, hour of the day.
+- Interaction Features: Distance multiplied by surge multiplier.
+
+#### 3. Model Training
+Models Trained:
+
+- Random Forest Regressor
+- Gradient Boosting Regressor
+- XGBoost Regressor
+
+Hyperparameter Tuning:
+
+- RandomizedSearchCV: Used for coarse hyperparameter tuning.
+- GridSearchCV: Refined hyperparameter optimization.
+
+Metrics:
+
+- Root Mean Squared Error (RMSE) was used to evaluate model performance.
+
+#### 4. Deployment
+
+The final model was packaged and deployed as a REST API using Flask. The deployment pipeline includes a Docker container with Kubernetes configuration
+
+### Key Files
+
+1. train.py
+
+- Script for training the model.
+- Handles data preprocessing, feature engineering, and model evaluation.
+- Saves the trained model and vectorizer as a binary file (price_prediction.bin).
+
+2. predict.py
+
+- Flask-based REST API for predicting ride prices.
+- Accepts JSON input with ride features and returns the predicted price.
+
+3. deployment.yaml
+
+- Kubernetes Deployment configuration for running the Flask app in a scalable manner.
+- Specifies resource limits, container port, and replica count.
+
+4. service.yaml
+
+- Kubernetes Service configuration to expose the Flask app externally.
+- Configures a NodePort for accessing the API.
+
+5. requirements.txt
+
+Lists all Python dependencies required for the project, including:
+- scikit-learn
+- xgboost
+- Flask
+- numpy, pandas, etc.
+
+6. columns_attributes.json
+
+- Defines the metadata for each feature, including type, range, and categories.
+- Facilitates data validation and preprocessing consistency.
+
+7. .github/workflows/python-ci-cd.yml
+
+- GitHub Actions CI/CD pipeline for:
+- Dependency installation.
+- Running automated tests.
+
+8. test_predict.py
+
+Contains unit tests for the prediction API to validate functionality and accuracy.
+
+### Usage Instructions
+Run the following commands to test the model locally:
+
+1. Local Testing
+
+# Install dependencies
 pip install -r requirements.txt
-```
 
-4. Download the Dataset:
+# Train the model
+python train.py
 
-https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma/data?select=rideshare_kaggle.csv
+# Start the API
+python predict.py
 
-### Usage
+2. API Usage
 
-1. Navigate to the Project Directory:
+Send a POST request to the /predict endpoint with the following JSON payload:
 
-```
-cd uber-price-prediction
-```
+{
+  "distance": 3.5,
+  "surge_multiplier": 1.2,
+  "latitude": 42.36,
+  "longitude": -71.06,
+  "temperature": 40,
+  "humidity": 0.85,
+  "source": "Boston University",
+  "destination": "North Station",
+  "cab_type": "UberX",
+  "hour": 14,
+  "day": 5
+}
 
-2. Open Jupyter Notebook:
 
-```
-jupyter notebook
-```
 
-3. Run the Notebook:
 
-- Open model_training.ipynb.
-- Execute all cells sequentially to perform data preprocessing, feature selection, model training, hyperparameter tuning, and model evaluation.
-- The trained model will be saved as random_forest_uber_price_model.joblib in the project directory.
 
-### Model Deployment via API
+
