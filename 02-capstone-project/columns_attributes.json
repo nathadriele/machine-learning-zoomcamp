@@ -1,0 +1,129 @@
+{
+    "hour": [
+        "numeric",
+        "int64",
+        0,
+        23
+    ],
+    "day": [
+        "numeric",
+        "int64",
+        1,
+        31
+    ],
+    "source": [
+        "category",
+        [
+            "Haymarket Square",
+            "North Station",
+            "Theatre District",
+            "South Station",
+            "Financial District",
+            "West End",
+            "Beacon Hill",
+            "Fenway",
+            "Boston University"
+        ]
+    ],
+    "destination": [
+        "category",
+        [
+            "Haymarket Square",
+            "North Station",
+            "Theatre District",
+            "South Station",
+            "Financial District",
+            "West End",
+            "Beacon Hill",
+            "Fenway",
+            "Boston University"
+        ]
+    ],
+    "cab_type": [
+        "category",
+        [
+            "Uber",
+            "Lyft"
+        ]
+    ],
+    "name": [
+        "category",
+        [
+            "UberX",
+            "UberPool",
+            "Black",
+            "Black SUV",
+            "Shared",
+            "Lyft XL",
+            "Lux",
+            "Lux Black",
+            "Lux Black XL"
+        ]
+    ],
+    "distance": [
+        "numeric",
+        "float64",
+        0.02,
+        7.5
+    ],
+    "surge_multiplier": [
+        "numeric",
+        "float64",
+        1.0,
+        3.0
+    ],
+    "latitude": [
+        "numeric",
+        "float64",
+        42.2148,
+        42.3661
+    ],
+    "longitude": [
+        "numeric",
+        "float64",
+        -71.1054,
+        -71.0330
+    ],
+    "temperature": [
+        "numeric",
+        "float64",
+        18.91,
+        57.22
+    ],
+    "humidity": [
+        "numeric",
+        "float64",
+        0.50,
+        1.00
+    ],
+    "precipintensity": [
+        "numeric",
+        "float64",
+        0.0,
+        0.1459
+    ],
+    "visibility": [
+        "numeric",
+        "float64",
+        3.0,
+        10.0
+    ],
+    "is_weekend": [
+        "binary",
+        "int64",
+        0,
+        1
+    ],
+    "day_of_week": [
+        "numeric",
+        "int32",
+        0,
+        6
+    ],
+    "price": [
+        "target",
+        "float64",
+        2.5,
+        92.0
+    ]
+}
