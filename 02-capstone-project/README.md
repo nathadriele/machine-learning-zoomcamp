@@ -45,10 +45,13 @@ EDA provided key insights into the dataset, which were critical for feature sele
 - Temporal Trends: Observed price fluctuations based on the time of day.
 - Geospatial Patterns: Visualized ride distribution using heatmaps.
 
-**Example:**
+**Examples:**
 
 ![image](https://github.com/user-attachments/assets/59f3c5fd-1a03-46cb-ab39-e75dbbe853a6)
 
+![image](https://github.com/user-attachments/assets/5f03288c-b097-453b-bcfa-0c8811fd7960)
+
+![image](https://github.com/user-attachments/assets/93e6e933-c7ac-44ae-96ac-da4234d9071a)
 
 ### Visualizations
 
@@ -57,6 +60,9 @@ EDA provided key insights into the dataset, which were critical for feature sele
 ![image](https://github.com/user-attachments/assets/d7ff4680-0de7-4b7c-9723-ed8b32c00956)
 
 ![image](https://github.com/user-attachments/assets/d9c629b7-8557-4966-810f-e1376a80a564)
+
+![image](https://github.com/user-attachments/assets/784c04e4-01d7-4e55-9bca-b29bf46c4b8b)
+
 
 ### Model Development
 
