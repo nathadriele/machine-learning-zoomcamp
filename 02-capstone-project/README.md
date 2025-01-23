@@ -29,6 +29,29 @@ The dataset used for this project was sourced from Kaggle’s rideshare dataset.
 - Weather Data: Temperature, humidity, visibility, wind speed.
 - Pricing Details: Ride price and surge multiplier.
 
+### Project Structure
+
+![image](https://github.com/user-attachments/assets/9c7c192c-eb19-44ad-a949-e8a958ef73d5)
+
+     - ci_cd/: Contains the configuration files for Continuous Integration and Continuous Deployment (CI/CD) pipelines. For example, python-ci-cd.yml is used to automate testing and deployment workflows.
+     - configs/: Stores configuration files such as columns_attributes.json, which include important settings or metadata required by the project.
+     - data/: Contains datasets used in the project, such as rideshare_kaggle.csv. This directory is used to manage both raw and processed data.
+     - deployments/: Includes files related to deploying the project, such as:
+     - Dockerfile: Instructions to containerize the application.
+     - deployment.yaml and service.yaml: Kubernetes deployment and service configuration files.
+     - Makefile: Automates tasks related to building, testing, and deployment.
+     - imgs/: Stores images used in the project, such as visuals for reports or documentation.
+     - notebooks/: Contains Jupyter notebooks used for exploratory data analysis (EDA) and experimentation, such as 02-capstone-project.ipynb.
+     - requirements/: Includes files that specify project dependencies:
+     - Pipfile: Used for dependency management with Pipenv.
+     - requirements.txt: Lists all Python libraries needed to run the project.
+     - src/: Main source code directory, divided into the following subdirectories:
+     - inference/: Code for making predictions with the trained model (e.g., predict.py).
+     - tests/: Contains testing scripts to ensure code reliability (e.g., test.py).
+     - training/: Scripts related to model training and pipeline creation, such as train.py and pipeline.joblib.
+     - .dockerignore: Specifies files and directories to ignore during the Docker build process.
+     - README.md: The main documentation file for the project, providing an overview, setup instructions, and usage guidelines.
+
 ### Dataset Preprocessing
 
 1. Column Cleaning: Removed irrelevant and highly correlated columns.
