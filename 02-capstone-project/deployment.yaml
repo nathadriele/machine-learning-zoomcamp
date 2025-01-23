@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: uber-price-deployment
+  labels:
+    app: uber-price
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: uber-price
+  template:
+    metadata:
+      labels:
+        app: uber-price
+    spec:
+      containers:
+      - name: uber-price-container
+        image: user/uber-model:latest
+        ports:
+        - containerPort: 5000
+        # Optional: Resources can be configured based on requirements
+        # resources:
+        #   requests:
+        #     cpu: "250m"
+        #     memory: "256Mi"
+        #   limits:
+        #     cpu: "1"
+        #     memory: "512Mi"
