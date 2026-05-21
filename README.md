@@ -1,9 +1,5 @@
 # Machine Learning Zoomcamp
 
-[More details](https://github.com/DataTalksClub/machine-learning-zoomcamp)
-
-![image](https://github.com/user-attachments/assets/3efc7201-7f18-43f1-9406-0973290aedf9)
-
 ## 1. Introduction to Machine Learning
 - 1.1 Introduction to Machine Learning
 - 1.2 ML vs Rule-Based Systems
